@@ -290,12 +290,52 @@ Prefab:
     - target: {fileID: 114983722661447790, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
         type: 2}
       propertyPath: m_MatchWidthOrHeight
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 223824892869868850, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
         type: 2}
       propertyPath: m_PixelPerfect
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114983722661447790, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -116.69629
+      objectReference: {fileID: 0}
+    - target: {fileID: 224369102083149048, guid: 0d18ddd3033d7ee429d249e5f6c45c32,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 91
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0d18ddd3033d7ee429d249e5f6c45c32, type: 2}
