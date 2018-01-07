@@ -72,6 +72,8 @@ public class SpectrumAnalyzer : MonoBehaviour {
             Vector3 pos = pillars[i].transform.localPosition;
             pos.y = Pos.y + image.sizeDelta.y/2;
             pillars[i].transform.localPosition = pos;
+
+            
         }
     }
 }
