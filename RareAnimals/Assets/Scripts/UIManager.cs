@@ -8,6 +8,8 @@ public class UIManager : MonoBehaviour {
     public Transform AudioNav;
     public Transform AnimalBooks;
 
+    public static MenuItem menuItem = MenuItem.ARScan;
+
 	void Start () {
 
         if (!ARScan)
@@ -24,9 +26,11 @@ public class UIManager : MonoBehaviour {
         }
 
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+}
+
+public enum MenuItem
+{
+    ARScan,
+    AudioNav,
+    AnimalsBook
 }
