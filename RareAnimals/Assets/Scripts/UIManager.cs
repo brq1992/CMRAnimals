@@ -24,8 +24,26 @@ public class UIManager : MonoBehaviour {
         {
             AnimalBooks = transform.GetChild(0).Find("AnimalBooks");
         }
-
     }
+
+
+# region btn function
+    public void OnClickAR()
+    {
+        Debug.Log("you click AR");
+    }
+
+    public void OnClickNav()
+    {
+        Debug.Log("you click NAV");
+    }
+
+    public void OnClickBook()
+    {
+        Debug.Log("you click Book");
+    }
+#endregion
+
 }
 
 public enum MenuItem
