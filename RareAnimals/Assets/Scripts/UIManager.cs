@@ -5,10 +5,13 @@ using UnityEngine;
 public class UIManager : MonoBehaviour {
     private BaseManager baseManager;
     private SceneManager SceneManager;
-    private Transform ContentRoot;   
+    private Transform ContentRoot;
+    private MainMenuManager MainMenuManager;
+    public static MenuItem MenuItem;
 
-	void Start ()
+    void Start ()
     {
+        MenuItem = MenuItem.ARScan;
         SceneManager = GameObject.FindGameObjectWithTag("SceneManager").GetComponent<SceneManager>();
         if(null==SceneManager)
         {
@@ -19,33 +22,35 @@ public class UIManager : MonoBehaviour {
         {
             Debug.LogError("ContentRoot can't be find!");
         }
-        if (SceneManager.menuItem == MenuItem.ARScan)
-        {
-            //todo:make arscan active
-            OnClickAR();
-        }
+
+        MainMenuManager = transform.GetChild(0).Find("MainMenu").GetComponent<MainMenuManager>();
+        MainMenuManager.Init();
+        MainMenuManager.OnClickAREvent += OnClickAR;
+        MainMenuManager.OnClickAudioEvent += OnClickAudio;
+        MainMenuManager.OnClickBookEvent += OnClickBook;
+        OnClickAR();
     }
-
-
-# region btn function
-    public void OnClickAR()
+    
+    private void OnClickAR()
     {
+        MenuItem = MenuItem.ARScan;
+        MainMenuManager.SetActiveMenu(MenuItem);
         GetViewManager("Prefabs/ARScan");
-        Debug.Log("you click AR");
     }
 
-    public void OnClickNav()
+    private void OnClickAudio()
     {
+        MenuItem = MenuItem.AudioNav;
+        MainMenuManager.SetActiveMenu(MenuItem);
         GetViewManager("Prefabs/AudioNav");
-        Debug.Log("you click NAV");
     }
 
-    public void OnClickBook()
+    private void OnClickBook()
     {
+        MenuItem = MenuItem.AnimalsBook;
+        MainMenuManager.SetActiveMenu(MenuItem);
         GetViewManager("Prefabs/AnimalBooks");
-        Debug.Log("you click Book");
     }
-#endregion
 
     private void GetViewManager(string path)
     {
