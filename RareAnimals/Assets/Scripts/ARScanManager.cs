@@ -11,10 +11,17 @@ public class ARScanManager : BaseManager
     private int bottomPos;
     private float currentPos;
     public int speed = 5;
+    private Transform warnTrans;
     public override void InitView()
     {
         base.InitView();
         update = false;
+
+        warnTrans = transform.Find("Warning");
+        Button warnBtn = warnTrans.GetChild(0).GetComponent<Button>();
+        warnBtn.onClick.AddListener(OnClickWarning);
+        warnTrans.gameObject.SetActive(false);
+
         lineTrans = transform.Find("ScanLine");
         Image image = lineTrans.GetComponent<Image>();
         int center =(int) (image.GetComponent<RectTransform>().sizeDelta.y / 2) ;
@@ -26,6 +33,11 @@ public class ARScanManager : BaseManager
         Vector3 vector3 = new Vector3(rect.localPosition.x, topPos, rect.localPosition.z);
         rect.localPosition = vector3;
         EnableLine(true);
+    }
+
+    private void OnClickWarning()
+    {
+
     }
 
     private void Scaning()

@@ -19,6 +19,7 @@ public class AudioNavManager : BaseManager
 
     private void AddAudioSource(AudioClip clip)
     {
-
+        audioSource.clip = clip;
+        audioSource.Play();
     }
 }
