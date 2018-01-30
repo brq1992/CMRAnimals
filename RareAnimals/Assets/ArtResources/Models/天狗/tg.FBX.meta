@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 05539005f490019489d81395a1fa7567
+timeCreated: 1517278781
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tiangou
+    100004: tiangou 1
+    100006: tiangou Footsteps
+    100008: tiangou Head
+    100010: tiangou HeadNub
+    100012: tiangou L Calf
+    100014: tiangou L Clavicle
+    100016: tiangou L Finger0
+    100018: tiangou L Finger01
+    100020: tiangou L Finger02
+    100022: tiangou L Finger0Nub
+    100024: tiangou L Finger1
+    100026: tiangou L Finger11
+    100028: tiangou L Finger12
+    100030: tiangou L Finger1Nub
+    100032: tiangou L Foot
+    100034: tiangou L Forearm
+    100036: tiangou L Hand
+    100038: tiangou L HorseLink
+    100040: tiangou L Thigh
+    100042: tiangou L Toe0
+    100044: tiangou L Toe01
+    100046: tiangou L Toe02
+    100048: tiangou L Toe0Nub
+    100050: tiangou L Toe1
+    100052: tiangou L Toe11
+    100054: tiangou L Toe12
+    100056: tiangou L Toe1Nub
+    100058: tiangou L UpperArm
+    100060: tiangou Neck
+    100062: tiangou Pelvis
+    100064: tiangou R Calf
+    100066: tiangou R Clavicle
+    100068: tiangou R Finger0
+    100070: tiangou R Finger01
+    100072: tiangou R Finger02
+    100074: tiangou R Finger0Nub
+    100076: tiangou R Finger1
+    100078: tiangou R Finger11
+    100080: tiangou R Finger12
+    100082: tiangou R Finger1Nub
+    100084: tiangou R Foot
+    100086: tiangou R Forearm
+    100088: tiangou R Hand
+    100090: tiangou R HorseLink
+    100092: tiangou R Thigh
+    100094: tiangou R Toe0
+    100096: tiangou R Toe01
+    100098: tiangou R Toe02
+    100100: tiangou R Toe0Nub
+    100102: tiangou R Toe1
+    100104: tiangou R Toe11
+    100106: tiangou R Toe12
+    100108: tiangou R Toe1Nub
+    100110: tiangou R UpperArm
+    100112: tiangou Spine
+    100114: tiangou Spine1
+    100116: tiangou Tail
+    100118: tiangou TailNub
+    100120: tiangou Xtra01
+    100122: tiangou Xtra01Nub
+    100124: tiangou Xtra02
+    100126: tiangou Xtra02Nub
+    100128: tiangou Xtra02Opp
+    100130: tiangou Xtra02OppNub
+    100132: tiangou Xtra03
+    100134: tiangou Xtra0302
+    100136: tiangou Xtra0303
+    100138: tiangou Xtra03Nub
+    100140: tiangou Xtra03Opp
+    100142: tiangou Xtra03Opp02
+    100144: tiangou Xtra03Opp03
+    100146: tiangou Xtra03OppNub
+    100148: tiangou Xtra04
+    100150: tiangou Xtra0402
+    100152: tiangou Xtra0403
+    100154: tiangou Xtra04Nub
+    100156: tiangou Xtra04Opp
+    100158: tiangou Xtra04Opp02
+    100160: tiangou Xtra04Opp03
+    100162: tiangou Xtra04OppNub
+    100164: tiangou Xtra05
+    100166: tiangou Xtra0502
+    100168: tiangou Xtra0503
+    100170: tiangou Xtra05Nub
+    100172: tiangou Xtra05Opp
+    100174: tiangou Xtra05Opp02
+    100176: tiangou Xtra05Opp03
+    100178: tiangou Xtra05OppNub
+    100180: tiangou Xtra06
+    100182: tiangou Xtra0602
+    100184: tiangou Xtra0603
+    100186: tiangou Xtra06Nub
+    100188: tiangou Xtra06Opp
+    100190: tiangou Xtra06Opp02
+    100192: tiangou Xtra06Opp03
+    100194: tiangou Xtra06OppNub
+    100196: tiangou Xtra07
+    100198: tiangou Xtra07Nub
+    100200: tiangou Xtra07Opp
+    100202: tiangou Xtra07OppNub
+    100204: tiangou Xtra08
+    100206: tiangou Xtra0802
+    100208: tiangou Xtra0803
+    100210: tiangou Xtra08Nub
+    100212: tiangou Xtra08Opp
+    100214: tiangou Xtra08Opp02
+    100216: tiangou Xtra08Opp03
+    100218: tiangou Xtra08OppNub
+    100220: tiangou Xtra09
+    100222: tiangou Xtra0902
+    100224: tiangou Xtra0903
+    100226: tiangou Xtra09Nub
+    100228: tiangou Xtra09Opp
+    100230: tiangou Xtra09Opp02
+    100232: tiangou Xtra09Opp03
+    100234: tiangou Xtra09OppNub
+    100236: tiangou Xtra10
+    100238: tiangou Xtra1002
+    100240: tiangou Xtra1003
+    100242: tiangou Xtra10Nub
+    100244: tiangou Xtra10Opp
+    100246: tiangou Xtra10Opp02
+    100248: tiangou Xtra10Opp03
+    100250: tiangou Xtra10OppNub
+    100252: tiangou Xtra11
+    100254: tiangou Xtra1102
+    100256: tiangou Xtra1103
+    100258: tiangou Xtra11Nub
+    100260: tiangou Xtra11Opp
+    100262: tiangou Xtra11Opp02
+    100264: tiangou Xtra11Opp03
+    100266: tiangou Xtra11OppNub
+    100268: tiangou Xtra12
+    100270: tiangou Xtra1202
+    100272: tiangou Xtra1203
+    100274: tiangou Xtra12Nub
+    100276: tiangou Xtra12Opp
+    100278: tiangou Xtra12Opp02
+    100280: tiangou Xtra12Opp03
+    100282: tiangou Xtra12OppNub
+    100284: tiangou Xtra13
+    100286: tiangou Xtra1302
+    100288: tiangou Xtra1303
+    100290: tiangou Xtra1304
+    100292: tiangou Xtra1305
+    100294: tiangou Xtra1306
+    100296: tiangou Xtra1307
+    100298: tiangou Xtra13Nub
+    100300: tiangou Xtra14
+    100302: tiangou Xtra1402
+    100304: tiangou Xtra1403
+    100306: tiangou Xtra1404
+    100308: tiangou Xtra1405
+    100310: tiangou Xtra1406
+    100312: tiangou Xtra1407
+    100314: tiangou Xtra14Nub
+    100316: tiangou Xtra15
+    100318: tiangou Xtra1502
+    100320: tiangou Xtra1503
+    100322: tiangou Xtra1504
+    100324: tiangou Xtra1505
+    100326: tiangou Xtra15Nub
+    100328: tiangou Xtra15Opp
+    100330: tiangou Xtra15Opp02
+    100332: tiangou Xtra15Opp03
+    100334: tiangou Xtra15Opp04
+    100336: tiangou Xtra15Opp05
+    100338: tiangou Xtra15OppNub
+    100340: tiangou Xtra16
+    100342: tiangou Xtra1602
+    100344: tiangou Xtra1603
+    100346: tiangou Xtra1604
+    100348: tiangou Xtra1605
+    100350: tiangou Xtra1606
+    100352: tiangou Xtra1607
+    100354: tiangou Xtra16Nub
+    100356: tiangou Xtra16Opp
+    100358: tiangou Xtra16Opp02
+    100360: tiangou Xtra16Opp03
+    100362: tiangou Xtra16Opp04
+    100364: tiangou Xtra16Opp05
+    100366: tiangou Xtra16Opp06
+    100368: tiangou Xtra16Opp07
+    100370: tiangou Xtra16OppNub
+    100372: tiangou Xtra17
+    100374: tiangou Xtra1702
+    100376: tiangou Xtra1703
+    100378: tiangou Xtra1704
+    100380: tiangou Xtra1705
+    100382: tiangou Xtra17Nub
+    100384: tiangou Xtra17Opp
+    100386: tiangou Xtra17Opp02
+    100388: tiangou Xtra17Opp03
+    100390: tiangou Xtra17Opp04
+    100392: tiangou Xtra17Opp05
+    100394: tiangou Xtra17OppNub
+    100396: tiangou Xtra18
+    100398: tiangou Xtra1802
+    100400: tiangou Xtra18Nub
+    100402: tiangou Xtra18Opp
+    100404: tiangou Xtra18Opp02
+    100406: tiangou Xtra18OppNub
+    100408: tiangou Xtra19
+    100410: tiangou Xtra1902
+    100412: tiangou Xtra19Nub
+    100414: tiangou Xtra19Opp
+    100416: tiangou Xtra19Opp02
+    100418: tiangou Xtra19OppNub
+    100420: tiangou Xtra20
+    100422: tiangou Xtra2002
+    100424: tiangou Xtra20Nub
+    100426: tiangou Xtra20Opp
+    100428: tiangou Xtra20Opp02
+    100430: tiangou Xtra20OppNub
+    100432: tiangou Xtra21
+    100434: tiangou Xtra2102
+    100436: tiangou Xtra21Nub
+    100438: tiangou Xtra21Opp
+    100440: tiangou Xtra21Opp02
+    100442: tiangou Xtra21OppNub
+    100444: tiangou Xtra22
+    100446: tiangou Xtra2202
+    100448: tiangou Xtra22Nub
+    100450: tiangou Xtra22Opp
+    100452: tiangou Xtra22Opp02
+    100454: tiangou Xtra22OppNub
+    100456: tiangou Xtra23
+    100458: tiangou Xtra2302
+    100460: tiangou Xtra23Nub
+    100462: tiangou Xtra23Opp
+    100464: tiangou Xtra23Opp02
+    100466: tiangou Xtra23OppNub
+    100468: tiangou Xtra24
+    100470: tiangou Xtra2402
+    100472: tiangou Xtra24Nub
+    100474: tiangou Xtra24Opp
+    100476: tiangou Xtra24Opp02
+    100478: tiangou Xtra24OppNub
+    100480: tiangou Xtra25
+    100482: tiangou Xtra2502
+    100484: tiangou Xtra25Nub
+    100486: tiangou Xtra25Opp
+    100488: tiangou Xtra25Opp02
+    100490: tiangou Xtra25OppNub
+    400000: //RootNode
+    400002: tiangou
+    400004: tiangou 1
+    400006: tiangou Footsteps
+    400008: tiangou Head
+    400010: tiangou HeadNub
+    400012: tiangou L Calf
+    400014: tiangou L Clavicle
+    400016: tiangou L Finger0
+    400018: tiangou L Finger01
+    400020: tiangou L Finger02
+    400022: tiangou L Finger0Nub
+    400024: tiangou L Finger1
+    400026: tiangou L Finger11
+    400028: tiangou L Finger12
+    400030: tiangou L Finger1Nub
+    400032: tiangou L Foot
+    400034: tiangou L Forearm
+    400036: tiangou L Hand
+    400038: tiangou L HorseLink
+    400040: tiangou L Thigh
+    400042: tiangou L Toe0
+    400044: tiangou L Toe01
+    400046: tiangou L Toe02
+    400048: tiangou L Toe0Nub
+    400050: tiangou L Toe1
+    400052: tiangou L Toe11
+    400054: tiangou L Toe12
+    400056: tiangou L Toe1Nub
+    400058: tiangou L UpperArm
+    400060: tiangou Neck
+    400062: tiangou Pelvis
+    400064: tiangou R Calf
+    400066: tiangou R Clavicle
+    400068: tiangou R Finger0
+    400070: tiangou R Finger01
+    400072: tiangou R Finger02
+    400074: tiangou R Finger0Nub
+    400076: tiangou R Finger1
+    400078: tiangou R Finger11
+    400080: tiangou R Finger12
+    400082: tiangou R Finger1Nub
+    400084: tiangou R Foot
+    400086: tiangou R Forearm
+    400088: tiangou R Hand
+    400090: tiangou R HorseLink
+    400092: tiangou R Thigh
+    400094: tiangou R Toe0
+    400096: tiangou R Toe01
+    400098: tiangou R Toe02
+    400100: tiangou R Toe0Nub
+    400102: tiangou R Toe1
+    400104: tiangou R Toe11
+    400106: tiangou R Toe12
+    400108: tiangou R Toe1Nub
+    400110: tiangou R UpperArm
+    400112: tiangou Spine
+    400114: tiangou Spine1
+    400116: tiangou Tail
+    400118: tiangou TailNub
+    400120: tiangou Xtra01
+    400122: tiangou Xtra01Nub
+    400124: tiangou Xtra02
+    400126: tiangou Xtra02Nub
+    400128: tiangou Xtra02Opp
+    400130: tiangou Xtra02OppNub
+    400132: tiangou Xtra03
+    400134: tiangou Xtra0302
+    400136: tiangou Xtra0303
+    400138: tiangou Xtra03Nub
+    400140: tiangou Xtra03Opp
+    400142: tiangou Xtra03Opp02
+    400144: tiangou Xtra03Opp03
+    400146: tiangou Xtra03OppNub
+    400148: tiangou Xtra04
+    400150: tiangou Xtra0402
+    400152: tiangou Xtra0403
+    400154: tiangou Xtra04Nub
+    400156: tiangou Xtra04Opp
+    400158: tiangou Xtra04Opp02
+    400160: tiangou Xtra04Opp03
+    400162: tiangou Xtra04OppNub
+    400164: tiangou Xtra05
+    400166: tiangou Xtra0502
+    400168: tiangou Xtra0503
+    400170: tiangou Xtra05Nub
+    400172: tiangou Xtra05Opp
+    400174: tiangou Xtra05Opp02
+    400176: tiangou Xtra05Opp03
+    400178: tiangou Xtra05OppNub
+    400180: tiangou Xtra06
+    400182: tiangou Xtra0602
+    400184: tiangou Xtra0603
+    400186: tiangou Xtra06Nub
+    400188: tiangou Xtra06Opp
+    400190: tiangou Xtra06Opp02
+    400192: tiangou Xtra06Opp03
+    400194: tiangou Xtra06OppNub
+    400196: tiangou Xtra07
+    400198: tiangou Xtra07Nub
+    400200: tiangou Xtra07Opp
+    400202: tiangou Xtra07OppNub
+    400204: tiangou Xtra08
+    400206: tiangou Xtra0802
+    400208: tiangou Xtra0803
+    400210: tiangou Xtra08Nub
+    400212: tiangou Xtra08Opp
+    400214: tiangou Xtra08Opp02
+    400216: tiangou Xtra08Opp03
+    400218: tiangou Xtra08OppNub
+    400220: tiangou Xtra09
+    400222: tiangou Xtra0902
+    400224: tiangou Xtra0903
+    400226: tiangou Xtra09Nub
+    400228: tiangou Xtra09Opp
+    400230: tiangou Xtra09Opp02
+    400232: tiangou Xtra09Opp03
+    400234: tiangou Xtra09OppNub
+    400236: tiangou Xtra10
+    400238: tiangou Xtra1002
+    400240: tiangou Xtra1003
+    400242: tiangou Xtra10Nub
+    400244: tiangou Xtra10Opp
+    400246: tiangou Xtra10Opp02
+    400248: tiangou Xtra10Opp03
+    400250: tiangou Xtra10OppNub
+    400252: tiangou Xtra11
+    400254: tiangou Xtra1102
+    400256: tiangou Xtra1103
+    400258: tiangou Xtra11Nub
+    400260: tiangou Xtra11Opp
+    400262: tiangou Xtra11Opp02
+    400264: tiangou Xtra11Opp03
+    400266: tiangou Xtra11OppNub
+    400268: tiangou Xtra12
+    400270: tiangou Xtra1202
+    400272: tiangou Xtra1203
+    400274: tiangou Xtra12Nub
+    400276: tiangou Xtra12Opp
+    400278: tiangou Xtra12Opp02
+    400280: tiangou Xtra12Opp03
+    400282: tiangou Xtra12OppNub
+    400284: tiangou Xtra13
+    400286: tiangou Xtra1302
+    400288: tiangou Xtra1303
+    400290: tiangou Xtra1304
+    400292: tiangou Xtra1305
+    400294: tiangou Xtra1306
+    400296: tiangou Xtra1307
+    400298: tiangou Xtra13Nub
+    400300: tiangou Xtra14
+    400302: tiangou Xtra1402
+    400304: tiangou Xtra1403
+    400306: tiangou Xtra1404
+    400308: tiangou Xtra1405
+    400310: tiangou Xtra1406
+    400312: tiangou Xtra1407
+    400314: tiangou Xtra14Nub
+    400316: tiangou Xtra15
+    400318: tiangou Xtra1502
+    400320: tiangou Xtra1503
+    400322: tiangou Xtra1504
+    400324: tiangou Xtra1505
+    400326: tiangou Xtra15Nub
+    400328: tiangou Xtra15Opp
+    400330: tiangou Xtra15Opp02
+    400332: tiangou Xtra15Opp03
+    400334: tiangou Xtra15Opp04
+    400336: tiangou Xtra15Opp05
+    400338: tiangou Xtra15OppNub
+    400340: tiangou Xtra16
+    400342: tiangou Xtra1602
+    400344: tiangou Xtra1603
+    400346: tiangou Xtra1604
+    400348: tiangou Xtra1605
+    400350: tiangou Xtra1606
+    400352: tiangou Xtra1607
+    400354: tiangou Xtra16Nub
+    400356: tiangou Xtra16Opp
+    400358: tiangou Xtra16Opp02
+    400360: tiangou Xtra16Opp03
+    400362: tiangou Xtra16Opp04
+    400364: tiangou Xtra16Opp05
+    400366: tiangou Xtra16Opp06
+    400368: tiangou Xtra16Opp07
+    400370: tiangou Xtra16OppNub
+    400372: tiangou Xtra17
+    400374: tiangou Xtra1702
+    400376: tiangou Xtra1703
+    400378: tiangou Xtra1704
+    400380: tiangou Xtra1705
+    400382: tiangou Xtra17Nub
+    400384: tiangou Xtra17Opp
+    400386: tiangou Xtra17Opp02
+    400388: tiangou Xtra17Opp03
+    400390: tiangou Xtra17Opp04
+    400392: tiangou Xtra17Opp05
+    400394: tiangou Xtra17OppNub
+    400396: tiangou Xtra18
+    400398: tiangou Xtra1802
+    400400: tiangou Xtra18Nub
+    400402: tiangou Xtra18Opp
+    400404: tiangou Xtra18Opp02
+    400406: tiangou Xtra18OppNub
+    400408: tiangou Xtra19
+    400410: tiangou Xtra1902
+    400412: tiangou Xtra19Nub
+    400414: tiangou Xtra19Opp
+    400416: tiangou Xtra19Opp02
+    400418: tiangou Xtra19OppNub
+    400420: tiangou Xtra20
+    400422: tiangou Xtra2002
+    400424: tiangou Xtra20Nub
+    400426: tiangou Xtra20Opp
+    400428: tiangou Xtra20Opp02
+    400430: tiangou Xtra20OppNub
+    400432: tiangou Xtra21
+    400434: tiangou Xtra2102
+    400436: tiangou Xtra21Nub
+    400438: tiangou Xtra21Opp
+    400440: tiangou Xtra21Opp02
+    400442: tiangou Xtra21OppNub
+    400444: tiangou Xtra22
+    400446: tiangou Xtra2202
+    400448: tiangou Xtra22Nub
+    400450: tiangou Xtra22Opp
+    400452: tiangou Xtra22Opp02
+    400454: tiangou Xtra22OppNub
+    400456: tiangou Xtra23
+    400458: tiangou Xtra2302
+    400460: tiangou Xtra23Nub
+    400462: tiangou Xtra23Opp
+    400464: tiangou Xtra23Opp02
+    400466: tiangou Xtra23OppNub
+    400468: tiangou Xtra24
+    400470: tiangou Xtra2402
+    400472: tiangou Xtra24Nub
+    400474: tiangou Xtra24Opp
+    400476: tiangou Xtra24Opp02
+    400478: tiangou Xtra24OppNub
+    400480: tiangou Xtra25
+    400482: tiangou Xtra2502
+    400484: tiangou Xtra25Nub
+    400486: tiangou Xtra25Opp
+    400488: tiangou Xtra25Opp02
+    400490: tiangou Xtra25OppNub
+    4300000: tiangou
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: tiangou
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #16'
+    second: {fileID: 2100000, guid: d0ef69b61aee81c4c90f1c6bcab690cc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

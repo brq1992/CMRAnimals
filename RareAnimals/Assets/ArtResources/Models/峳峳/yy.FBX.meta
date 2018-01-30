@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: e77f31a531e1a5042b6300509e44b928
+timeCreated: 1517278930
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: youyou
+    100002: youyou 1
+    100004: youyou Footsteps
+    100006: youyou Head
+    100008: youyou HeadNub
+    100010: youyou L Calf
+    100012: youyou L Clavicle
+    100014: youyou L Finger0
+    100016: youyou L Finger0Nub
+    100018: youyou L Foot
+    100020: youyou L Forearm
+    100022: youyou L Hand
+    100024: youyou L HorseLink
+    100026: youyou L Thigh
+    100028: youyou L Toe0
+    100030: youyou L Toe0Nub
+    100032: youyou L UpperArm
+    100034: youyou Neck
+    100036: youyou Neck1
+    100038: youyou Pelvis
+    100040: youyou R Calf
+    100042: youyou R Clavicle
+    100044: youyou R Finger0
+    100046: youyou R Finger0Nub
+    100048: youyou R Foot
+    100050: youyou R Forearm
+    100052: youyou R Hand
+    100054: youyou R HorseLink
+    100056: youyou R Thigh
+    100058: youyou R Toe0
+    100060: youyou R Toe0Nub
+    100062: youyou R UpperArm
+    100064: youyou Spine
+    100066: youyou Spine1
+    100068: youyou Tail
+    100070: youyou Tail1
+    100072: youyou Tail2
+    100074: youyou Tail3
+    100076: youyou Tail4
+    100078: youyou TailNub
+    100080: "youyou \u9A6C\u5C3E\u8FAB 1"
+    100082: "youyou \u9A6C\u5C3E\u8FAB 1Nub"
+    100084: "youyou \u9A6C\u5C3E\u8FAB 2"
+    100086: "youyou \u9A6C\u5C3E\u8FAB 2Nub"
+    100088: //RootNode
+    100090: "\u5BF9\u8C61001"
+    400000: youyou
+    400002: youyou 1
+    400004: youyou Footsteps
+    400006: youyou Head
+    400008: youyou HeadNub
+    400010: youyou L Calf
+    400012: youyou L Clavicle
+    400014: youyou L Finger0
+    400016: youyou L Finger0Nub
+    400018: youyou L Foot
+    400020: youyou L Forearm
+    400022: youyou L Hand
+    400024: youyou L HorseLink
+    400026: youyou L Thigh
+    400028: youyou L Toe0
+    400030: youyou L Toe0Nub
+    400032: youyou L UpperArm
+    400034: youyou Neck
+    400036: youyou Neck1
+    400038: youyou Pelvis
+    400040: youyou R Calf
+    400042: youyou R Clavicle
+    400044: youyou R Finger0
+    400046: youyou R Finger0Nub
+    400048: youyou R Foot
+    400050: youyou R Forearm
+    400052: youyou R Hand
+    400054: youyou R HorseLink
+    400056: youyou R Thigh
+    400058: youyou R Toe0
+    400060: youyou R Toe0Nub
+    400062: youyou R UpperArm
+    400064: youyou Spine
+    400066: youyou Spine1
+    400068: youyou Tail
+    400070: youyou Tail1
+    400072: youyou Tail2
+    400074: youyou Tail3
+    400076: youyou Tail4
+    400078: youyou TailNub
+    400080: "youyou \u9A6C\u5C3E\u8FAB 1"
+    400082: "youyou \u9A6C\u5C3E\u8FAB 1Nub"
+    400084: "youyou \u9A6C\u5C3E\u8FAB 2"
+    400086: "youyou \u9A6C\u5C3E\u8FAB 2Nub"
+    400088: //RootNode
+    400090: "\u5BF9\u8C61001"
+    2300000: "\u5BF9\u8C61001"
+    3300000: "\u5BF9\u8C61001"
+    4300000: "\u5BF9\u8C61001"
+    4300002: youyou
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: youyou
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 2c2d2b3c679c5214bbef58280fca9b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yy
+    second: {fileID: 2100000, guid: b7c2f8ad01943fc47a1e13d61101ea69, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

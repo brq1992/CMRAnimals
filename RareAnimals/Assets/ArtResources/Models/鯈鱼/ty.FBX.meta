@@ -1,0 +1,428 @@
+fileFormatVersion: 2
+guid: 48fa3f924f651a14ea50e05d472fe95d
+timeCreated: 1517278888
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dummy001
+    100002: tiaoyu
+    100004: tiaoyu 1
+    100006: tiaoyu Footsteps
+    100008: tiaoyu Head a
+    100010: tiaoyu Head b
+    100012: tiaoyu Head bNub
+    100014: tiaoyu HeadNub
+    100016: tiaoyu L Calf
+    100018: tiaoyu L Clavicle
+    100020: tiaoyu L Finger0
+    100022: tiaoyu L Finger01
+    100024: tiaoyu L Finger02
+    100026: tiaoyu L Finger0Nub
+    100028: tiaoyu L Finger1
+    100030: tiaoyu L Finger11
+    100032: tiaoyu L Finger12
+    100034: tiaoyu L Finger1Nub
+    100036: tiaoyu L Finger2
+    100038: tiaoyu L Finger21
+    100040: tiaoyu L Finger22
+    100042: tiaoyu L Finger2Nub
+    100044: tiaoyu L Finger3
+    100046: tiaoyu L Finger31
+    100048: tiaoyu L Finger32
+    100050: tiaoyu L Finger3Nub
+    100052: tiaoyu L Foot
+    100054: tiaoyu L Forearm
+    100056: tiaoyu L Hand
+    100058: tiaoyu L HorseLink
+    100060: tiaoyu L Thigh
+    100062: tiaoyu L Toe0
+    100064: tiaoyu L Toe01
+    100066: tiaoyu L Toe02
+    100068: tiaoyu L Toe0Nub
+    100070: tiaoyu L Toe1
+    100072: tiaoyu L Toe11
+    100074: tiaoyu L Toe12
+    100076: tiaoyu L Toe1Nub
+    100078: tiaoyu L Toe2
+    100080: tiaoyu L Toe21
+    100082: tiaoyu L Toe22
+    100084: tiaoyu L Toe2Nub
+    100086: tiaoyu L Toe3
+    100088: tiaoyu L Toe31
+    100090: tiaoyu L Toe32
+    100092: tiaoyu L Toe3Nub
+    100094: tiaoyu L UpperArm
+    100096: tiaoyu Neck a1
+    100098: tiaoyu Neck a2
+    100100: tiaoyu Neck a3
+    100102: tiaoyu Neck a4
+    100104: tiaoyu Neck b
+    100106: tiaoyu Neck b2
+    100108: tiaoyu Neck b3
+    100110: tiaoyu Neck b4
+    100112: tiaoyu Neck bNub
+    100114: tiaoyu Pelvis
+    100116: tiaoyu R Calf
+    100118: tiaoyu R Clavicle
+    100120: tiaoyu R Finger0
+    100122: tiaoyu R Finger01
+    100124: tiaoyu R Finger02
+    100126: tiaoyu R Finger0Nub
+    100128: tiaoyu R Finger1
+    100130: tiaoyu R Finger11
+    100132: tiaoyu R Finger12
+    100134: tiaoyu R Finger1Nub
+    100136: tiaoyu R Finger2
+    100138: tiaoyu R Finger21
+    100140: tiaoyu R Finger22
+    100142: tiaoyu R Finger2Nub
+    100144: tiaoyu R Finger3
+    100146: tiaoyu R Finger31
+    100148: tiaoyu R Finger32
+    100150: tiaoyu R Finger3Nub
+    100152: tiaoyu R Foot
+    100154: tiaoyu R Forearm
+    100156: tiaoyu R Hand
+    100158: tiaoyu R HorseLink
+    100160: tiaoyu R Thigh
+    100162: tiaoyu R Toe0
+    100164: tiaoyu R Toe01
+    100166: tiaoyu R Toe02
+    100168: tiaoyu R Toe0Nub
+    100170: tiaoyu R Toe1
+    100172: tiaoyu R Toe11
+    100174: tiaoyu R Toe12
+    100176: tiaoyu R Toe1Nub
+    100178: tiaoyu R Toe2
+    100180: tiaoyu R Toe21
+    100182: tiaoyu R Toe22
+    100184: tiaoyu R Toe2Nub
+    100186: tiaoyu R Toe3
+    100188: tiaoyu R Toe31
+    100190: tiaoyu R Toe32
+    100192: tiaoyu R Toe3Nub
+    100194: tiaoyu R UpperArm
+    100196: tiaoyu Spine
+    100198: tiaoyu Tail
+    100200: tiaoyu Tail1
+    100202: tiaoyu Tail2
+    100204: tiaoyu Tail3
+    100206: tiaoyu Tail4
+    100208: tiaoyu Tail5
+    100210: tiaoyu TailNub
+    100212: tiaoyu Xtra01
+    100214: tiaoyu Xtra0102
+    100216: tiaoyu Xtra0103
+    100218: tiaoyu Xtra01Nub
+    100220: tiaoyu Xtra01Opp
+    100222: tiaoyu Xtra01Opp02
+    100224: tiaoyu Xtra01Opp03
+    100226: tiaoyu Xtra01OppNub
+    100228: tiaoyu Xtra02
+    100230: tiaoyu Xtra0202
+    100232: tiaoyu Xtra0203
+    100234: tiaoyu Xtra02Nub
+    100236: tiaoyu Xtra02Opp
+    100238: tiaoyu Xtra02Opp02
+    100240: tiaoyu Xtra02Opp03
+    100242: tiaoyu Xtra02OppNub
+    100244: tiaoyu Xtra03
+    100246: tiaoyu Xtra03Nub
+    100248: tiaoyu Xtra03Opp
+    100250: tiaoyu Xtra03OppNub
+    100252: tiaoyu Xtra04
+    100254: tiaoyu Xtra0402
+    100256: tiaoyu Xtra0403
+    100258: tiaoyu Xtra04Nub
+    100260: tiaoyu Xtra04Opp
+    100262: tiaoyu Xtra04Opp02
+    100264: tiaoyu Xtra04Opp03
+    100266: tiaoyu Xtra04OppNub
+    100268: tiaoyu Xtra05
+    100270: tiaoyu Xtra0502
+    100272: tiaoyu Xtra0503
+    100274: tiaoyu Xtra05Nub
+    100276: tiaoyu Xtra05Opp
+    100278: tiaoyu Xtra05Opp02
+    100280: tiaoyu Xtra05Opp03
+    100282: tiaoyu Xtra05OppNub
+    100284: tiaoyu Xtra06
+    100286: tiaoyu Xtra0602
+    100288: tiaoyu Xtra0603
+    100290: tiaoyu Xtra06Nub
+    100292: tiaoyu Xtra06Opp
+    100294: tiaoyu Xtra06Opp02
+    100296: tiaoyu Xtra06Opp03
+    100298: tiaoyu Xtra06OppNub
+    100300: tiaoyu Xtra07
+    100302: tiaoyu Xtra0702
+    100304: tiaoyu Xtra0703
+    100306: tiaoyu Xtra07Nub
+    100308: tiaoyu Xtra07Opp
+    100310: tiaoyu Xtra07Opp02
+    100312: tiaoyu Xtra07Opp03
+    100314: tiaoyu Xtra07OppNub
+    100316: tiaoyu Xtra08
+    100318: tiaoyu Xtra0802
+    100320: tiaoyu Xtra0803
+    100322: tiaoyu Xtra08Nub
+    100324: tiaoyu Xtra08Opp
+    100326: tiaoyu Xtra08Opp02
+    100328: tiaoyu Xtra08Opp03
+    100330: tiaoyu Xtra08OppNub
+    100332: //RootNode
+    400000: Dummy001
+    400002: tiaoyu
+    400004: tiaoyu 1
+    400006: tiaoyu Footsteps
+    400008: tiaoyu Head a
+    400010: tiaoyu Head b
+    400012: tiaoyu Head bNub
+    400014: tiaoyu HeadNub
+    400016: tiaoyu L Calf
+    400018: tiaoyu L Clavicle
+    400020: tiaoyu L Finger0
+    400022: tiaoyu L Finger01
+    400024: tiaoyu L Finger02
+    400026: tiaoyu L Finger0Nub
+    400028: tiaoyu L Finger1
+    400030: tiaoyu L Finger11
+    400032: tiaoyu L Finger12
+    400034: tiaoyu L Finger1Nub
+    400036: tiaoyu L Finger2
+    400038: tiaoyu L Finger21
+    400040: tiaoyu L Finger22
+    400042: tiaoyu L Finger2Nub
+    400044: tiaoyu L Finger3
+    400046: tiaoyu L Finger31
+    400048: tiaoyu L Finger32
+    400050: tiaoyu L Finger3Nub
+    400052: tiaoyu L Foot
+    400054: tiaoyu L Forearm
+    400056: tiaoyu L Hand
+    400058: tiaoyu L HorseLink
+    400060: tiaoyu L Thigh
+    400062: tiaoyu L Toe0
+    400064: tiaoyu L Toe01
+    400066: tiaoyu L Toe02
+    400068: tiaoyu L Toe0Nub
+    400070: tiaoyu L Toe1
+    400072: tiaoyu L Toe11
+    400074: tiaoyu L Toe12
+    400076: tiaoyu L Toe1Nub
+    400078: tiaoyu L Toe2
+    400080: tiaoyu L Toe21
+    400082: tiaoyu L Toe22
+    400084: tiaoyu L Toe2Nub
+    400086: tiaoyu L Toe3
+    400088: tiaoyu L Toe31
+    400090: tiaoyu L Toe32
+    400092: tiaoyu L Toe3Nub
+    400094: tiaoyu L UpperArm
+    400096: tiaoyu Neck a1
+    400098: tiaoyu Neck a2
+    400100: tiaoyu Neck a3
+    400102: tiaoyu Neck a4
+    400104: tiaoyu Neck b
+    400106: tiaoyu Neck b2
+    400108: tiaoyu Neck b3
+    400110: tiaoyu Neck b4
+    400112: tiaoyu Neck bNub
+    400114: tiaoyu Pelvis
+    400116: tiaoyu R Calf
+    400118: tiaoyu R Clavicle
+    400120: tiaoyu R Finger0
+    400122: tiaoyu R Finger01
+    400124: tiaoyu R Finger02
+    400126: tiaoyu R Finger0Nub
+    400128: tiaoyu R Finger1
+    400130: tiaoyu R Finger11
+    400132: tiaoyu R Finger12
+    400134: tiaoyu R Finger1Nub
+    400136: tiaoyu R Finger2
+    400138: tiaoyu R Finger21
+    400140: tiaoyu R Finger22
+    400142: tiaoyu R Finger2Nub
+    400144: tiaoyu R Finger3
+    400146: tiaoyu R Finger31
+    400148: tiaoyu R Finger32
+    400150: tiaoyu R Finger3Nub
+    400152: tiaoyu R Foot
+    400154: tiaoyu R Forearm
+    400156: tiaoyu R Hand
+    400158: tiaoyu R HorseLink
+    400160: tiaoyu R Thigh
+    400162: tiaoyu R Toe0
+    400164: tiaoyu R Toe01
+    400166: tiaoyu R Toe02
+    400168: tiaoyu R Toe0Nub
+    400170: tiaoyu R Toe1
+    400172: tiaoyu R Toe11
+    400174: tiaoyu R Toe12
+    400176: tiaoyu R Toe1Nub
+    400178: tiaoyu R Toe2
+    400180: tiaoyu R Toe21
+    400182: tiaoyu R Toe22
+    400184: tiaoyu R Toe2Nub
+    400186: tiaoyu R Toe3
+    400188: tiaoyu R Toe31
+    400190: tiaoyu R Toe32
+    400192: tiaoyu R Toe3Nub
+    400194: tiaoyu R UpperArm
+    400196: tiaoyu Spine
+    400198: tiaoyu Tail
+    400200: tiaoyu Tail1
+    400202: tiaoyu Tail2
+    400204: tiaoyu Tail3
+    400206: tiaoyu Tail4
+    400208: tiaoyu Tail5
+    400210: tiaoyu TailNub
+    400212: tiaoyu Xtra01
+    400214: tiaoyu Xtra0102
+    400216: tiaoyu Xtra0103
+    400218: tiaoyu Xtra01Nub
+    400220: tiaoyu Xtra01Opp
+    400222: tiaoyu Xtra01Opp02
+    400224: tiaoyu Xtra01Opp03
+    400226: tiaoyu Xtra01OppNub
+    400228: tiaoyu Xtra02
+    400230: tiaoyu Xtra0202
+    400232: tiaoyu Xtra0203
+    400234: tiaoyu Xtra02Nub
+    400236: tiaoyu Xtra02Opp
+    400238: tiaoyu Xtra02Opp02
+    400240: tiaoyu Xtra02Opp03
+    400242: tiaoyu Xtra02OppNub
+    400244: tiaoyu Xtra03
+    400246: tiaoyu Xtra03Nub
+    400248: tiaoyu Xtra03Opp
+    400250: tiaoyu Xtra03OppNub
+    400252: tiaoyu Xtra04
+    400254: tiaoyu Xtra0402
+    400256: tiaoyu Xtra0403
+    400258: tiaoyu Xtra04Nub
+    400260: tiaoyu Xtra04Opp
+    400262: tiaoyu Xtra04Opp02
+    400264: tiaoyu Xtra04Opp03
+    400266: tiaoyu Xtra04OppNub
+    400268: tiaoyu Xtra05
+    400270: tiaoyu Xtra0502
+    400272: tiaoyu Xtra0503
+    400274: tiaoyu Xtra05Nub
+    400276: tiaoyu Xtra05Opp
+    400278: tiaoyu Xtra05Opp02
+    400280: tiaoyu Xtra05Opp03
+    400282: tiaoyu Xtra05OppNub
+    400284: tiaoyu Xtra06
+    400286: tiaoyu Xtra0602
+    400288: tiaoyu Xtra0603
+    400290: tiaoyu Xtra06Nub
+    400292: tiaoyu Xtra06Opp
+    400294: tiaoyu Xtra06Opp02
+    400296: tiaoyu Xtra06Opp03
+    400298: tiaoyu Xtra06OppNub
+    400300: tiaoyu Xtra07
+    400302: tiaoyu Xtra0702
+    400304: tiaoyu Xtra0703
+    400306: tiaoyu Xtra07Nub
+    400308: tiaoyu Xtra07Opp
+    400310: tiaoyu Xtra07Opp02
+    400312: tiaoyu Xtra07Opp03
+    400314: tiaoyu Xtra07OppNub
+    400316: tiaoyu Xtra08
+    400318: tiaoyu Xtra0802
+    400320: tiaoyu Xtra0803
+    400322: tiaoyu Xtra08Nub
+    400324: tiaoyu Xtra08Opp
+    400326: tiaoyu Xtra08Opp02
+    400328: tiaoyu Xtra08Opp03
+    400330: tiaoyu Xtra08OppNub
+    400332: //RootNode
+    4300000: tiaoyu
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: tiaoyu
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ty
+    second: {fileID: 2100000, guid: 971029271e8690948b5513f735f29b72, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 9d85248555d469d499d6da797ea12625
+timeCreated: 1517278898
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Dummy001
+    100002: //RootNode
+    100004: fh
+    100006: fh 1
+    100008: fh Footsteps
+    100010: fh Head
+    100012: fh HeadNub
+    100014: fh L Calf
+    100016: fh L Foot
+    100018: fh L Thigh
+    100020: fh L Toe0
+    100022: fh L Toe01
+    100024: fh L Toe02
+    100026: fh L Toe0Nub
+    100028: fh L Toe1
+    100030: fh L Toe11
+    100032: fh L Toe12
+    100034: fh L Toe1Nub
+    100036: fh L Toe2
+    100038: fh L Toe21
+    100040: fh L Toe22
+    100042: fh L Toe2Nub
+    100044: fh L Toe3
+    100046: fh L Toe31
+    100048: fh L Toe32
+    100050: fh L Toe3Nub
+    100052: fh Neck
+    100054: fh Neck1
+    100056: fh Neck2
+    100058: fh Pelvis
+    100060: fh R Calf
+    100062: fh R Foot
+    100064: fh R Thigh
+    100066: fh R Toe0
+    100068: fh R Toe01
+    100070: fh R Toe02
+    100072: fh R Toe0Nub
+    100074: fh R Toe1
+    100076: fh R Toe11
+    100078: fh R Toe12
+    100080: fh R Toe1Nub
+    100082: fh R Toe2
+    100084: fh R Toe21
+    100086: fh R Toe22
+    100088: fh R Toe2Nub
+    100090: fh R Toe3
+    100092: fh R Toe31
+    100094: fh R Toe32
+    100096: fh R Toe3Nub
+    100098: fh Spine
+    100100: fh Tail
+    100102: fh Tail1
+    100104: fh Tail2
+    100106: fh TailNub
+    100108: fh Xtra01
+    100110: fh Xtra0102
+    100112: fh Xtra0103
+    100114: fh Xtra0104
+    100116: fh Xtra01Nub
+    100118: fh Xtra01Opp
+    100120: fh Xtra01Opp02
+    100122: fh Xtra01Opp03
+    100124: fh Xtra01Opp04
+    100126: fh Xtra01OppNub
+    100128: fh Xtra02
+    100130: fh Xtra0202
+    100132: fh Xtra0203
+    100134: fh Xtra0204
+    100136: fh Xtra0205
+    100138: fh Xtra02Nub
+    100140: fh Xtra02Opp
+    100142: fh Xtra02Opp02
+    100144: fh Xtra02Opp03
+    100146: fh Xtra02Opp04
+    100148: fh Xtra02Opp05
+    100150: fh Xtra02OppNub
+    100152: fh Xtra03
+    100154: fh Xtra0302
+    100156: fh Xtra0303
+    100158: fh Xtra0304
+    100160: fh Xtra0305
+    100162: fh Xtra0306
+    100164: fh Xtra03Nub
+    100166: fh Xtra03Opp
+    100168: fh Xtra03Opp02
+    100170: fh Xtra03Opp03
+    100172: fh Xtra03Opp04
+    100174: fh Xtra03Opp05
+    100176: fh Xtra03Opp06
+    100178: fh Xtra03OppNub
+    100180: fh Xtra04
+    100182: fh Xtra0402
+    100184: fh Xtra0403
+    100186: fh Xtra04Nub
+    100188: fh Xtra04Opp
+    100190: fh Xtra04Opp02
+    100192: fh Xtra04Opp03
+    100194: fh Xtra04OppNub
+    100196: fh Xtra05
+    100198: fh Xtra0502
+    100200: fh Xtra05Nub
+    100202: fh Xtra05Opp
+    100204: fh Xtra05Opp02
+    100206: fh Xtra05OppNub
+    100208: fh Xtra06
+    100210: fh Xtra0602
+    100212: fh Xtra06Nub
+    100214: fh Xtra06Opp
+    100216: fh Xtra06Opp02
+    100218: fh Xtra06OppNub
+    100220: fh Xtra07
+    100222: fh Xtra0702
+    100224: fh Xtra07Nub
+    100226: fh Xtra07Opp
+    100228: fh Xtra07Opp02
+    100230: fh Xtra07OppNub
+    100232: fh Xtra08
+    100234: fh Xtra0802
+    100236: fh Xtra08Nub
+    100238: fh Xtra08Opp
+    100240: fh Xtra08Opp02
+    100242: fh Xtra08OppNub
+    100244: fh Xtra09
+    100246: fh Xtra0902
+    100248: fh Xtra09Nub
+    100250: fh Xtra09Opp
+    100252: fh Xtra09Opp02
+    100254: fh Xtra09OppNub
+    100256: fh Xtra10
+    100258: fh Xtra1002
+    100260: fh Xtra10Nub
+    100262: fh Xtra10Opp
+    100264: fh Xtra10Opp02
+    100266: fh Xtra10OppNub
+    100268: fh Xtra11
+    100270: fh Xtra1102
+    100272: fh Xtra11Nub
+    100274: fh Xtra11Opp
+    100276: fh Xtra11Opp02
+    100278: fh Xtra11OppNub
+    100280: fh Xtra12
+    100282: fh Xtra12Nub
+    100284: fh Xtra13
+    100286: fh Xtra1302
+    100288: fh Xtra1303
+    100290: fh Xtra13Nub
+    100292: fh Xtra13Opp
+    100294: fh Xtra13Opp02
+    100296: fh Xtra13Opp03
+    100298: fh Xtra13OppNub
+    100300: fh Xtra14
+    100302: fh Xtra1402
+    100304: fh Xtra1403
+    100306: fh Xtra1404
+    100308: fh Xtra14Nub
+    100310: fh Xtra14Opp
+    100312: fh Xtra14Opp02
+    100314: fh Xtra14Opp03
+    100316: fh Xtra14Opp04
+    100318: fh Xtra14OppNub
+    100320: fh Xtra15
+    100322: fh Xtra1502
+    100324: fh Xtra1503
+    100326: fh Xtra1504
+    100328: fh Xtra15Nub
+    100330: fh Xtra15Opp
+    100332: fh Xtra15Opp02
+    100334: fh Xtra15Opp03
+    100336: fh Xtra15Opp04
+    100338: fh Xtra15OppNub
+    100340: fh Xtra16
+    100342: fh Xtra1602
+    100344: fh Xtra1603
+    100346: fh Xtra16Nub
+    100348: fh Xtra16Opp
+    100350: fh Xtra16Opp02
+    100352: fh Xtra16Opp03
+    100354: fh Xtra16OppNub
+    100356: fh Xtra17
+    100358: fh Xtra1702
+    100360: fh Xtra1703
+    100362: fh Xtra17Nub
+    100364: fh Xtra17Opp
+    100366: fh Xtra17Opp02
+    100368: fh Xtra17Opp03
+    100370: fh Xtra17OppNub
+    100372: fh Xtra18
+    100374: fh Xtra1802
+    100376: fh Xtra18Nub
+    100378: fh Xtra18Opp
+    100380: fh Xtra18Opp02
+    100382: fh Xtra18OppNub
+    100384: fh Xtra19
+    100386: fh Xtra1902
+    100388: fh Xtra19Nub
+    100390: fh Xtra20
+    100392: fh Xtra20Nub
+    100394: fh Xtra20Opp
+    100396: fh Xtra20OppNub
+    100398: "fh \u9A6C\u5C3E\u8FAB 1"
+    100400: "fh \u9A6C\u5C3E\u8FAB 11"
+    100402: "fh \u9A6C\u5C3E\u8FAB 12"
+    100404: "fh \u9A6C\u5C3E\u8FAB 13"
+    100406: "fh \u9A6C\u5C3E\u8FAB 1Nub"
+    100408: "fh \u9A6C\u5C3E\u8FAB 2"
+    100410: "fh \u9A6C\u5C3E\u8FAB 21"
+    100412: "fh \u9A6C\u5C3E\u8FAB 22"
+    100414: "fh \u9A6C\u5C3E\u8FAB 23"
+    100416: "fh \u9A6C\u5C3E\u8FAB 2Nub"
+    400000: Dummy001
+    400002: //RootNode
+    400004: fh
+    400006: fh 1
+    400008: fh Footsteps
+    400010: fh Head
+    400012: fh HeadNub
+    400014: fh L Calf
+    400016: fh L Foot
+    400018: fh L Thigh
+    400020: fh L Toe0
+    400022: fh L Toe01
+    400024: fh L Toe02
+    400026: fh L Toe0Nub
+    400028: fh L Toe1
+    400030: fh L Toe11
+    400032: fh L Toe12
+    400034: fh L Toe1Nub
+    400036: fh L Toe2
+    400038: fh L Toe21
+    400040: fh L Toe22
+    400042: fh L Toe2Nub
+    400044: fh L Toe3
+    400046: fh L Toe31
+    400048: fh L Toe32
+    400050: fh L Toe3Nub
+    400052: fh Neck
+    400054: fh Neck1
+    400056: fh Neck2
+    400058: fh Pelvis
+    400060: fh R Calf
+    400062: fh R Foot
+    400064: fh R Thigh
+    400066: fh R Toe0
+    400068: fh R Toe01
+    400070: fh R Toe02
+    400072: fh R Toe0Nub
+    400074: fh R Toe1
+    400076: fh R Toe11
+    400078: fh R Toe12
+    400080: fh R Toe1Nub
+    400082: fh R Toe2
+    400084: fh R Toe21
+    400086: fh R Toe22
+    400088: fh R Toe2Nub
+    400090: fh R Toe3
+    400092: fh R Toe31
+    400094: fh R Toe32
+    400096: fh R Toe3Nub
+    400098: fh Spine
+    400100: fh Tail
+    400102: fh Tail1
+    400104: fh Tail2
+    400106: fh TailNub
+    400108: fh Xtra01
+    400110: fh Xtra0102
+    400112: fh Xtra0103
+    400114: fh Xtra0104
+    400116: fh Xtra01Nub
+    400118: fh Xtra01Opp
+    400120: fh Xtra01Opp02
+    400122: fh Xtra01Opp03
+    400124: fh Xtra01Opp04
+    400126: fh Xtra01OppNub
+    400128: fh Xtra02
+    400130: fh Xtra0202
+    400132: fh Xtra0203
+    400134: fh Xtra0204
+    400136: fh Xtra0205
+    400138: fh Xtra02Nub
+    400140: fh Xtra02Opp
+    400142: fh Xtra02Opp02
+    400144: fh Xtra02Opp03
+    400146: fh Xtra02Opp04
+    400148: fh Xtra02Opp05
+    400150: fh Xtra02OppNub
+    400152: fh Xtra03
+    400154: fh Xtra0302
+    400156: fh Xtra0303
+    400158: fh Xtra0304
+    400160: fh Xtra0305
+    400162: fh Xtra0306
+    400164: fh Xtra03Nub
+    400166: fh Xtra03Opp
+    400168: fh Xtra03Opp02
+    400170: fh Xtra03Opp03
+    400172: fh Xtra03Opp04
+    400174: fh Xtra03Opp05
+    400176: fh Xtra03Opp06
+    400178: fh Xtra03OppNub
+    400180: fh Xtra04
+    400182: fh Xtra0402
+    400184: fh Xtra0403
+    400186: fh Xtra04Nub
+    400188: fh Xtra04Opp
+    400190: fh Xtra04Opp02
+    400192: fh Xtra04Opp03
+    400194: fh Xtra04OppNub
+    400196: fh Xtra05
+    400198: fh Xtra0502
+    400200: fh Xtra05Nub
+    400202: fh Xtra05Opp
+    400204: fh Xtra05Opp02
+    400206: fh Xtra05OppNub
+    400208: fh Xtra06
+    400210: fh Xtra0602
+    400212: fh Xtra06Nub
+    400214: fh Xtra06Opp
+    400216: fh Xtra06Opp02
+    400218: fh Xtra06OppNub
+    400220: fh Xtra07
+    400222: fh Xtra0702
+    400224: fh Xtra07Nub
+    400226: fh Xtra07Opp
+    400228: fh Xtra07Opp02
+    400230: fh Xtra07OppNub
+    400232: fh Xtra08
+    400234: fh Xtra0802
+    400236: fh Xtra08Nub
+    400238: fh Xtra08Opp
+    400240: fh Xtra08Opp02
+    400242: fh Xtra08OppNub
+    400244: fh Xtra09
+    400246: fh Xtra0902
+    400248: fh Xtra09Nub
+    400250: fh Xtra09Opp
+    400252: fh Xtra09Opp02
+    400254: fh Xtra09OppNub
+    400256: fh Xtra10
+    400258: fh Xtra1002
+    400260: fh Xtra10Nub
+    400262: fh Xtra10Opp
+    400264: fh Xtra10Opp02
+    400266: fh Xtra10OppNub
+    400268: fh Xtra11
+    400270: fh Xtra1102
+    400272: fh Xtra11Nub
+    400274: fh Xtra11Opp
+    400276: fh Xtra11Opp02
+    400278: fh Xtra11OppNub
+    400280: fh Xtra12
+    400282: fh Xtra12Nub
+    400284: fh Xtra13
+    400286: fh Xtra1302
+    400288: fh Xtra1303
+    400290: fh Xtra13Nub
+    400292: fh Xtra13Opp
+    400294: fh Xtra13Opp02
+    400296: fh Xtra13Opp03
+    400298: fh Xtra13OppNub
+    400300: fh Xtra14
+    400302: fh Xtra1402
+    400304: fh Xtra1403
+    400306: fh Xtra1404
+    400308: fh Xtra14Nub
+    400310: fh Xtra14Opp
+    400312: fh Xtra14Opp02
+    400314: fh Xtra14Opp03
+    400316: fh Xtra14Opp04
+    400318: fh Xtra14OppNub
+    400320: fh Xtra15
+    400322: fh Xtra1502
+    400324: fh Xtra1503
+    400326: fh Xtra1504
+    400328: fh Xtra15Nub
+    400330: fh Xtra15Opp
+    400332: fh Xtra15Opp02
+    400334: fh Xtra15Opp03
+    400336: fh Xtra15Opp04
+    400338: fh Xtra15OppNub
+    400340: fh Xtra16
+    400342: fh Xtra1602
+    400344: fh Xtra1603
+    400346: fh Xtra16Nub
+    400348: fh Xtra16Opp
+    400350: fh Xtra16Opp02
+    400352: fh Xtra16Opp03
+    400354: fh Xtra16OppNub
+    400356: fh Xtra17
+    400358: fh Xtra1702
+    400360: fh Xtra1703
+    400362: fh Xtra17Nub
+    400364: fh Xtra17Opp
+    400366: fh Xtra17Opp02
+    400368: fh Xtra17Opp03
+    400370: fh Xtra17OppNub
+    400372: fh Xtra18
+    400374: fh Xtra1802
+    400376: fh Xtra18Nub
+    400378: fh Xtra18Opp
+    400380: fh Xtra18Opp02
+    400382: fh Xtra18OppNub
+    400384: fh Xtra19
+    400386: fh Xtra1902
+    400388: fh Xtra19Nub
+    400390: fh Xtra20
+    400392: fh Xtra20Nub
+    400394: fh Xtra20Opp
+    400396: fh Xtra20OppNub
+    400398: "fh \u9A6C\u5C3E\u8FAB 1"
+    400400: "fh \u9A6C\u5C3E\u8FAB 11"
+    400402: "fh \u9A6C\u5C3E\u8FAB 12"
+    400404: "fh \u9A6C\u5C3E\u8FAB 13"
+    400406: "fh \u9A6C\u5C3E\u8FAB 1Nub"
+    400408: "fh \u9A6C\u5C3E\u8FAB 2"
+    400410: "fh \u9A6C\u5C3E\u8FAB 21"
+    400412: "fh \u9A6C\u5C3E\u8FAB 22"
+    400414: "fh \u9A6C\u5C3E\u8FAB 23"
+    400416: "fh \u9A6C\u5C3E\u8FAB 2Nub"
+    4300000: fh
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fh
+    second: {fileID: 2100000, guid: 056bdaf68d0a47841bb73c6c9c72508d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
