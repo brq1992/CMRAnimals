@@ -17,8 +17,8 @@ public class ARScanManager : BaseManager
         base.InitView();
         update = false;
 
-        warnTrans = transform.Find("Warning");
-        Button warnBtn = warnTrans.GetChild(0).GetComponent<Button>();
+        warnTrans = transform.Find("WarningBtn");
+        Button warnBtn = warnTrans.GetChild(0).GetChild(0).GetComponent<Button>();
         warnBtn.onClick.AddListener(OnClickWarning);
         warnTrans.gameObject.SetActive(false);
 
