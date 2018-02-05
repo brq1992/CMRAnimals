@@ -30,8 +30,8 @@ MonoBehaviour:
   m_MaterialName: 1
   m_MaterialSearch: 2
   m_weldVertices: 1
-  AnimationType: 0
-  isOptimizeObject: 0
-  ImportAnimation: 0
+  AnimationType: 2
+  isOptimizeObject: 1
+  ImportAnimation: 1
   GenerateAnimatorController: 0
   IsLoop: 0
