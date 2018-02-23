@@ -13,7 +13,4 @@ public class BaseManager : MonoBehaviour
     {
         Debug.Log(" virtual Init View!");
     }
-
-
-
 }

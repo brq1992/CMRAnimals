@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class ARScanManager : BaseManager
@@ -33,6 +31,12 @@ public class ARScanManager : BaseManager
         Vector3 vector3 = new Vector3(rect.localPosition.x, topPos, rect.localPosition.z);
         rect.localPosition = vector3;
         EnableLine(true);
+        Core.NotificationEx.getSingleton().AddObserver<bool>(GlobelConst.FOUNDTARGET, Callback);
+    }
+
+    private void Callback(bool obj)
+    {
+        EnableLine(obj);
     }
 
     private void OnClickWarning()

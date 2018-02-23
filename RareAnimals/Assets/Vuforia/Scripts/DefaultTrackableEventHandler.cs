@@ -84,6 +84,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, true);
     }
 
 
@@ -104,6 +105,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, false);
     }
 
     #endregion // PRIVATE_METHODS
