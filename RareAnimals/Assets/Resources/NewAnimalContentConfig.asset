@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1450cfd55360cf249846adbd2c2bfdf2, type: 3}
+  m_Name: NewAnimalContentConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ARScanAnimalsConfig
+  list:
+  - list:
+    - Bg: {fileID: 21300000, guid: 0c9b17500066c6449b21ad2410541092, type: 3}
+      body: {fileID: 21300000, guid: 90c70f7113855d849851b4fbce704991, type: 3}
+      font: {fileID: 21300000, guid: b191632f09a81624e8ca3418d69be6b8, type: 3}
+    - Bg: {fileID: 21300000, guid: 84339c95e73c12f4690ac4077680e190, type: 3}
+      body: {fileID: 21300000, guid: e123a654921cbf0499282e9a1000845a, type: 3}
+      font: {fileID: 21300000, guid: 107e1987f240a2c428d860f9b21b17a8, type: 3}
+    - Bg: {fileID: 21300000, guid: bc3486eee6f00504da6d426be7adac20, type: 3}
+      body: {fileID: 21300000, guid: dd8f70e1b0c1bf34893d0cf8a5b1f9a3, type: 3}
+      font: {fileID: 21300000, guid: 3b622c54541f42848bcc959e5c2a2acf, type: 3}
+    - Bg: {fileID: 21300000, guid: 34e240873d5f44349b85a48e835567b3, type: 3}
+      body: {fileID: 21300000, guid: 3cd54f890f23c564bad1a37e9aa5a773, type: 3}
+      font: {fileID: 21300000, guid: b8bf5a92959147a45b5fc97612abea0f, type: 3}
+    - Bg: {fileID: 21300000, guid: 9b3819d9d833d564a93c24b849d0b82f, type: 3}
+      body: {fileID: 21300000, guid: b6678e0af894ed748a58dbb2434784be, type: 3}
+      font: {fileID: 21300000, guid: 9258d2c66aa102e4ab057cb7d1fec45d, type: 3}
+    Key: South
+    prefab: {fileID: 1351059732594148, guid: 28a36d49523322948a54ac024d7b924a, type: 2}
+    AnimalName: {fileID: 21300000, guid: ed91723ff3513b845ad2dd53d0e445da, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u98DE\u7FD4"
+    - "\u653B\u51FB"
+  - list:
+    - Bg: {fileID: 21300000, guid: e1bb3d76754228a43be2bb644b3412c6, type: 3}
+      body: {fileID: 21300000, guid: 815bab18e7985ce4488c189d9f66ab3c, type: 3}
+      font: {fileID: 21300000, guid: dfbbf68de5ab7564dacb422b102144ad, type: 3}
+    - Bg: {fileID: 21300000, guid: 6e46a21dd17dc2a4c8b03fbbd19f871a, type: 3}
+      body: {fileID: 21300000, guid: 228843802c63d4a4cbfd942e63e4cfba, type: 3}
+      font: {fileID: 21300000, guid: 43a1adcba71153e46b6befe96b7c600e, type: 3}
+    - Bg: {fileID: 21300000, guid: 43d9cdf5b7e9ace49be86c4600df0d65, type: 3}
+      body: {fileID: 21300000, guid: c3b388e18eda3934ab217bfe58a605ee, type: 3}
+      font: {fileID: 21300000, guid: 9147addada61c1d4bbe37c1dbf5923fc, type: 3}
+    - Bg: {fileID: 21300000, guid: aa0a412af0937e048908bf3a96600b15, type: 3}
+      body: {fileID: 21300000, guid: 9594918a60f8aa347afdf3221589de64, type: 3}
+      font: {fileID: 21300000, guid: ac0e2d4796056fc469dd4e8697e65f39, type: 3}
+    Key: West
+    prefab: {fileID: 1740091000657910, guid: c4550c53c10a723489d03712a7bf6a8e, type: 2}
+    AnimalName: {fileID: 21300000, guid: ad7c591b5f8ae03418fa23014371912d, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u53D1\u6012"
+    - "\u8DF3\u8DC3"
+  - list:
+    - Bg: {fileID: 21300000, guid: d220e581289aaf4458f36546edc1f4d9, type: 3}
+      body: {fileID: 21300000, guid: 2d6b268ea8f1a0d4189bed57514fd366, type: 3}
+      font: {fileID: 21300000, guid: 9c4098db24f359e4390064efb4a44f27, type: 3}
+    - Bg: {fileID: 21300000, guid: 8a550a712dd49504ca162ffad5b07a1e, type: 3}
+      body: {fileID: 21300000, guid: dbf1b46fad66b4046a406078ae3cc90c, type: 3}
+      font: {fileID: 21300000, guid: f5c2d2d1970aac3479c0ace7e398731f, type: 3}
+    - Bg: {fileID: 21300000, guid: 28b346dc2f28eee4c870becb17edf6e8, type: 3}
+      body: {fileID: 21300000, guid: 7d610178de7af2f4c9e8d977c71fb192, type: 3}
+      font: {fileID: 21300000, guid: 471fe65b82c535f4dbbaf36acc05a5b3, type: 3}
+    - Bg: {fileID: 21300000, guid: 0cdc9dbb1dae3e04abfda84af597523e, type: 3}
+      body: {fileID: 21300000, guid: 418d6ccfc8bb98f4996d7fd0ac3511dd, type: 3}
+      font: {fileID: 21300000, guid: 9d75a6d7f434d1e42a91e35a74c18bb7, type: 3}
+    Key: East
+    prefab: {fileID: 1147612580951714, guid: d8bda3e43423a474194c1e3f2c1c7f1f, type: 2}
+    AnimalName: {fileID: 21300000, guid: edf0c5050472eda49bdf62fd42997a7e, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u5954\u8DD1"
+    - "\u6253\u6597"
+  - list:
+    - Bg: {fileID: 21300000, guid: 4e44679ce3bf96045a6a3fae7e4b0db4, type: 3}
+      body: {fileID: 21300000, guid: 3c6a5cfb7cd408846805e989dc67affc, type: 3}
+      font: {fileID: 21300000, guid: 9c07982c5980442488daedf56e4e9714, type: 3}
+    - Bg: {fileID: 21300000, guid: cad01916b93b12346ad22e20dc13407b, type: 3}
+      body: {fileID: 21300000, guid: bd044fce9b7dbdf4a804f08fa688a915, type: 3}
+      font: {fileID: 21300000, guid: b5e2e12924ce2144eba05565fcc8e31c, type: 3}
+    - Bg: {fileID: 21300000, guid: 5596c8d130d33cf428d81665f759ae2d, type: 3}
+      body: {fileID: 21300000, guid: ff72eb82a10795b48b40a9528b66829a, type: 3}
+      font: {fileID: 21300000, guid: 9ca49447a4577674e80d10552e3a1794, type: 3}
+    - Bg: {fileID: 21300000, guid: 8b1e03ced08c154469be552f27ce148e, type: 3}
+      body: {fileID: 21300000, guid: d022082a15f293f4588650797d24da24, type: 3}
+      font: {fileID: 21300000, guid: c618cf5249057d54bb80a52698a02518, type: 3}
+    - Bg: {fileID: 21300000, guid: 2d75c3b8953234143b2b0d75df60bf4a, type: 3}
+      body: {fileID: 21300000, guid: 7a3c727cb00d6134a9337858badb8003, type: 3}
+      font: {fileID: 21300000, guid: c2746f008fcfb694ca7fa92182e27181, type: 3}
+    Key: North
+    prefab: {fileID: 1037202999202514, guid: b2c98da19db3bdd44ab44552221b4365, type: 2}
+    AnimalName: {fileID: 21300000, guid: 1c36a1d120a9b4049970f77995ddd2e6, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u89C6\u5BDF"
+    - "\u9646\u884C"
+  - list:
+    - Bg: {fileID: 21300000, guid: cb1c7315d9dc83042ad763112c16f64c, type: 3}
+      body: {fileID: 21300000, guid: 97a4eaf713f1f9542911088d7abe2564, type: 3}
+      font: {fileID: 21300000, guid: 77561177194290145bc8feb88bd95728, type: 3}
+    - Bg: {fileID: 21300000, guid: 4101a71d458d28241b1770896bb9f1ac, type: 3}
+      body: {fileID: 21300000, guid: 6b8f288a76491a64bbc399babf75d2cf, type: 3}
+      font: {fileID: 21300000, guid: 97932da4c0061174495f112cdc470af3, type: 3}
+    - Bg: {fileID: 21300000, guid: 641cc726ed4723c47b43737f6690f68a, type: 3}
+      body: {fileID: 21300000, guid: 8855775d62dce324384bd902b197f4fd, type: 3}
+      font: {fileID: 21300000, guid: 7103716b00c8b7946a0c5e414e413ed4, type: 3}
+    - Bg: {fileID: 21300000, guid: 3f3d1172afeb1ec4088f0a53971b12bf, type: 3}
+      body: {fileID: 21300000, guid: 1ef9b5eddc839bc4da5467994fed53c7, type: 3}
+      font: {fileID: 21300000, guid: cf0d2cefa6d9e2c4eb5c7d03ef90c3ae, type: 3}
+    Key: Middle
+    prefab: {fileID: 1104263234577920, guid: 4fa689aad6ebf6f42961258b18f55829, type: 2}
+    AnimalName: {fileID: 21300000, guid: a77a66e97874b5e48a245fac832ccae9, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u5486\u54EE"
+    - "\u5954\u8DD1"
+  - list:
+    - Bg: {fileID: 21300000, guid: f5b7bbf5df830fc4ba7e199a7b29cb81, type: 3}
+      body: {fileID: 21300000, guid: 54436fc4b035c3440acd6c1719de652e, type: 3}
+      font: {fileID: 21300000, guid: 020501a0615103e4f929acd2639dc20f, type: 3}
+    - Bg: {fileID: 21300000, guid: fa8d9653514369e4d82b0bbba5806b81, type: 3}
+      body: {fileID: 21300000, guid: 966e12e6ccef1324bb60439759f95c6c, type: 3}
+      font: {fileID: 21300000, guid: b316a2d21280fd047ab6bbf9304ab263, type: 3}
+    - Bg: {fileID: 21300000, guid: 70d98e94b41d3ea4197f6749a8c2effd, type: 3}
+      body: {fileID: 21300000, guid: 0a0b78a5da4b68b4f8a179609ac458dc, type: 3}
+      font: {fileID: 21300000, guid: f0f0658c4c5ae4e48b479c53559e0945, type: 3}
+    - Bg: {fileID: 21300000, guid: c93a1c88db0b9d346aaff5fe1d9e65e5, type: 3}
+      body: {fileID: 21300000, guid: 80964db2beaf866429af975aac4aebb7, type: 3}
+      font: {fileID: 21300000, guid: 538120497d57dc448bef8ce7fc7a0011, type: 3}
+    Key: Inside
+    prefab: {fileID: 1012435203426286, guid: 656fc79bfc8705f4ca3bd51b71c143bc, type: 2}
+    AnimalName: {fileID: 21300000, guid: b13f4f4b96b6eef47b1041f76ed99b3d, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u6C14\u6124"
+    - "\u9965\u997F"
+  - list:
+    - Bg: {fileID: 21300000, guid: 4ffcdb4e7f01c7240b48535874c61aed, type: 3}
+      body: {fileID: 21300000, guid: a598649e5c08f594d85c14d442f26920, type: 3}
+      font: {fileID: 21300000, guid: 995303df01e9edc4ca5fcda41d1ad7f0, type: 3}
+    - Bg: {fileID: 21300000, guid: 14cba863b056f6c4f91ed5b7070d68ec, type: 3}
+      body: {fileID: 21300000, guid: bc1f3e8213da4374492bf7bea3534341, type: 3}
+      font: {fileID: 21300000, guid: 55e99a6522e13d147b15e38ee7e74afa, type: 3}
+    - Bg: {fileID: 21300000, guid: 82b301562b8f03c4285d4bf92c4189f9, type: 3}
+      body: {fileID: 21300000, guid: 91ae93dd8cb13cd4080c8aa234db802e, type: 3}
+      font: {fileID: 21300000, guid: 317d026c09ec5f74bb732eff1a3d935f, type: 3}
+    - Bg: {fileID: 21300000, guid: 0c46e7642c7184347b40a194a5f99047, type: 3}
+      body: {fileID: 21300000, guid: 8c92320b7cc8b0b45b977672b8d817eb, type: 3}
+      font: {fileID: 21300000, guid: bbd829ae30d813e4b90b243b3d8db58d, type: 3}
+    Key: Outside
+    prefab: {fileID: 1443661435533728, guid: f0f6a9697dcf8a945a82367be45ce261, type: 2}
+    AnimalName: {fileID: 21300000, guid: b881bee3589be374dbca93637d6cdb5f, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u653B\u51FB"
+    - "\u6012\u543C"
+  - list:
+    - Bg: {fileID: 21300000, guid: d0077ae65495bbe4bb1b3272d05cb1b1, type: 3}
+      body: {fileID: 21300000, guid: 55d952c478823b54c9af36369612fbc1, type: 3}
+      font: {fileID: 21300000, guid: ae8126ec09a6c8f45b2db61fe8a54770, type: 3}
+    - Bg: {fileID: 21300000, guid: dee427d41d918cc47bb1e9a9a8381898, type: 3}
+      body: {fileID: 21300000, guid: 22991d2b016142b458f153f644328ec0, type: 3}
+      font: {fileID: 21300000, guid: c966f1671e10d2f40bf2d4cb2391b060, type: 3}
+    - Bg: {fileID: 21300000, guid: 7e7a39dded721c3478057cd66577003f, type: 3}
+      body: {fileID: 21300000, guid: 7addfdde791706f43a3558b9abe8de7e, type: 3}
+      font: {fileID: 21300000, guid: acd3da48e95afa1449f838b9ee15b28e, type: 3}
+    - Bg: {fileID: 21300000, guid: 52a801cacd70fb04ca1031022a9af4b6, type: 3}
+      body: {fileID: 21300000, guid: 6c63f139ba7d08b43b6c15a1e7fd9955, type: 3}
+      font: {fileID: 21300000, guid: 01ac042fa231b2443aefebcd72bd57b3, type: 3}
+    Key: Big
+    prefab: {fileID: 1130676688142608, guid: 0aca34760cd50f34baf85cd74374131b, type: 2}
+    AnimalName: {fileID: 21300000, guid: 70721746d72f2664b97f978a1e094ff2, type: 3}
+    ANames:
+    - "\u539F\u578B"
+    - "\u98DE\u7FD4"
+    - "\u653B\u51FB"

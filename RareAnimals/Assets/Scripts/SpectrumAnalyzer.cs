@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class SpectrumAnalyzer : MonoBehaviour {
 
@@ -15,11 +13,34 @@ public class SpectrumAnalyzer : MonoBehaviour {
     private float[] spectrum;
 
     public bool isBuilding = true;
-    // Use this for initialization
-    void Start ()
-    {
-        CreatePillarsByShapes();
 
+
+    public Transform test;
+    public GameObject pre;
+    // Use this for initialization
+    void Awake ()
+    {
+        pillars = GetAll();
+        //CreatePillarsByShapes();
+
+    }
+
+    private List<GameObject>  GetAll()
+    {
+        GameObject rootObject = Instantiate(pre);
+        rootObject.transform.SetParent(transform.parent);
+        rootObject.name = "AudioSource";
+        test = rootObject.transform;
+        test.transform.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, -145);
+        test.transform.localScale = Vector3.one;
+        List<GameObject> objects = new List<GameObject>(Count);
+        int dis = 19;
+        for (int i = 0; i < Count; i++)
+        {
+            GameObject obj = test.GetChild(i).gameObject;
+            objects.Add(obj);
+        }
+        return objects;
     }
 
     private void CreatePillarsByShapes()
@@ -68,12 +89,12 @@ public class SpectrumAnalyzer : MonoBehaviour {
             RectTransform image = pillars[i].GetComponent<RectTransform>();
             Vector2 previousSize = image.sizeDelta;
             previousSize.y = Mathf.Lerp(previousSize.y, level, settings.pillar.speed * Time.deltaTime);
+            previousSize.y = Mathf.Min(previousSize.y, 320);
             image.sizeDelta = new Vector2(previousSize.x, previousSize.y);
             Vector3 pos = pillars[i].transform.localPosition;
             pos.y = Pos.y + image.sizeDelta.y/2;
             pillars[i].transform.localPosition = pos;
 
-            
         }
     }
 }

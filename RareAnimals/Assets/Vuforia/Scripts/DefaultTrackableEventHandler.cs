@@ -62,7 +62,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             OnTrackingLost();
         }
     }
-
+     
     #endregion // PUBLIC_METHODS
 
     #region PRIVATE_METHODS
@@ -84,7 +84,15 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Enable canvas':
         foreach (var component in canvasComponents)
             component.enabled = true;
-        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, true);
+
+        //Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, true);
+        ScanResult result = new ScanResult
+        {
+            result = true,
+            root = gameObject,
+            TargetName = mTrackableBehaviour.TrackableName
+        };
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, result);
     }
 
 
@@ -105,7 +113,16 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
-        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, false);
+
+        //Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, false);
+        ScanResult result = new ScanResult
+        {
+            result = false,
+            root = gameObject,
+            TargetName =  mTrackableBehaviour.TrackableName
+        };
+        Core.NotificationEx.getSingleton().Post(GlobelConst.FOUNDTARGET, result);
+
     }
 
     #endregion // PRIVATE_METHODS

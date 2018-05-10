@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="testicon" size="2.000000 1.874706" />
+    <ImageTarget name="South_2" size="1.000000 1.000000" />
+    <ImageTarget name="East_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="East_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="Big_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="Big_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="Big_4" size="1.000000 1.000000" />
+    <ImageTarget name="Big_3" size="1.000000 1.000000" />
+    <ImageTarget name="Big_2" size="1.000000 1.000000" />
+    <ImageTarget name="Big_1" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_4" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_3" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_2" size="1.000000 1.000000" />
+    <ImageTarget name="Outside_1" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_4" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_3" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_2" size="1.000000 1.000000" />
+    <ImageTarget name="Inside_1" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_4" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_3" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_2" size="1.000000 1.000000" />
+    <ImageTarget name="Middle_1" size="1.000000 1.000000" />
+    <ImageTarget name="North_6_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="North_6_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="North_5" size="1.000000 1.000000" />
+    <ImageTarget name="North_4" size="1.000000 1.000000" />
+    <ImageTarget name="North_3" size="1.000000 1.000000" />
+    <ImageTarget name="North_2" size="1.000000 1.000000" />
+    <ImageTarget name="North_1" size="1.000000 1.000000" />
+    <ImageTarget name="East_4" size="1.000000 1.000000" />
+    <ImageTarget name="East_3" size="1.000000 1.000000" />
+    <ImageTarget name="East_2" size="1.000000 1.000000" />
+    <ImageTarget name="East_1" size="1.000000 1.000000" />
+    <ImageTarget name="West_5_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="West_5_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="West_4" size="1.000000 1.000000" />
+    <ImageTarget name="West_3" size="1.000000 1.000000" />
+    <ImageTarget name="West_2" size="1.000000 1.000000" />
+    <ImageTarget name="West_1" size="1.000000 1.000000" />
+    <ImageTarget name="South_6_3D_0" size="1.000000 1.000000" />
+    <ImageTarget name="South_6_3D_1" size="1.000000 1.000000" />
+    <ImageTarget name="South_5" size="1.000000 1.000000" />
+    <ImageTarget name="South_4" size="1.000000 1.000000" />
+    <ImageTarget name="South_3" size="1.000000 1.000000" />
+    <ImageTarget name="South_1" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>

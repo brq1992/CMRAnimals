@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: c6ac4271289dd6c4cacf858438f36cf5
+timeCreated: 1525249568
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: mafu
+    100002: mafu_Footsteps
+    100004: mafu_Head
+    100006: mafu_HeadNub
+    100008: mafu_L_Calf
+    100010: mafu_L_Clavicle
+    100012: mafu_L_Finger0
+    100014: mafu_L_Finger0Nub
+    100016: mafu_L_Foot
+    100018: mafu_L_Forearm
+    100020: mafu_L_Hand
+    100022: mafu_L_HorseLink
+    100024: mafu_L_Thigh
+    100026: mafu_L_Toe0
+    100028: mafu_L_Toe0Nub
+    100030: mafu_L_UpperArm
+    100032: mafu_Neck
+    100034: mafu_Pelvis
+    100036: mafu_R_Calf
+    100038: mafu_R_Clavicle
+    100040: mafu_R_Finger0
+    100042: mafu_R_Finger0Nub
+    100044: mafu_R_Foot
+    100046: mafu_R_Forearm
+    100048: mafu_R_Hand
+    100050: mafu_R_HorseLink
+    100052: mafu_R_Thigh
+    100054: mafu_R_Toe0
+    100056: mafu_R_Toe0Nub
+    100058: mafu_R_UpperArm
+    100060: mafu_Spine
+    100062: mafu_Spine1
+    100064: mafu_Spine2
+    100066: mafu_Tail
+    100068: mafu_Tail1
+    100070: mafu_Tail2
+    100072: mafu_Tail3
+    100074: mafu_Tail4
+    100076: mafu_TailNub
+    100078: mafu_Xtra01
+    100080: mafu_Xtra0102
+    100082: mafu_Xtra0103
+    100084: mafu_Xtra01Nub
+    100086: mafu_Xtra02
+    100088: mafu_Xtra0202
+    100090: mafu_Xtra0203
+    100092: mafu_Xtra02Nub
+    100094: mafu_Xtra03
+    100096: mafu_Xtra0302
+    100098: mafu_Xtra0303
+    100100: mafu_Xtra03Nub
+    100102: mafu_Xtra04
+    100104: mafu_Xtra0402
+    100106: mafu_Xtra0403
+    100108: mafu_Xtra04Nub
+    100110: mafu_Xtra04Opp
+    100112: mafu_Xtra04Opp02
+    100114: mafu_Xtra04Opp03
+    100116: mafu_Xtra04OppNub
+    100118: mafu_Xtra05
+    100120: mafu_Xtra0502
+    100122: mafu_Xtra05Nub
+    100124: mafu_Xtra05Opp
+    100126: mafu_Xtra05Opp02
+    100128: mafu_Xtra05OppNub
+    100130: mafu_Xtra06
+    100132: mafu_Xtra0602
+    100134: mafu_Xtra0603
+    100136: mafu_Xtra0604
+    100138: mafu_Xtra0605
+    100140: mafu_Xtra06Nub
+    100142: mafu_Xtra06Opp
+    100144: mafu_Xtra06Opp02
+    100146: mafu_Xtra06Opp03
+    100148: mafu_Xtra06Opp04
+    100150: mafu_Xtra06Opp05
+    100152: mafu_Xtra06OppNub
+    100154: mafu_Xtra07
+    100156: mafu_Xtra0702
+    100158: mafu_Xtra07Nub
+    100160: mafu_Xtra08
+    100162: mafu_Xtra08Nub
+    100164: mf
+    100166: "\u6444\u50CF\u673A"
+    100168: //RootNode
+    400000: mafu
+    400002: mafu_Footsteps
+    400004: mafu_Head
+    400006: mafu_HeadNub
+    400008: mafu_L_Calf
+    400010: mafu_L_Clavicle
+    400012: mafu_L_Finger0
+    400014: mafu_L_Finger0Nub
+    400016: mafu_L_Foot
+    400018: mafu_L_Forearm
+    400020: mafu_L_Hand
+    400022: mafu_L_HorseLink
+    400024: mafu_L_Thigh
+    400026: mafu_L_Toe0
+    400028: mafu_L_Toe0Nub
+    400030: mafu_L_UpperArm
+    400032: mafu_Neck
+    400034: mafu_Pelvis
+    400036: mafu_R_Calf
+    400038: mafu_R_Clavicle
+    400040: mafu_R_Finger0
+    400042: mafu_R_Finger0Nub
+    400044: mafu_R_Foot
+    400046: mafu_R_Forearm
+    400048: mafu_R_Hand
+    400050: mafu_R_HorseLink
+    400052: mafu_R_Thigh
+    400054: mafu_R_Toe0
+    400056: mafu_R_Toe0Nub
+    400058: mafu_R_UpperArm
+    400060: mafu_Spine
+    400062: mafu_Spine1
+    400064: mafu_Spine2
+    400066: mafu_Tail
+    400068: mafu_Tail1
+    400070: mafu_Tail2
+    400072: mafu_Tail3
+    400074: mafu_Tail4
+    400076: mafu_TailNub
+    400078: mafu_Xtra01
+    400080: mafu_Xtra0102
+    400082: mafu_Xtra0103
+    400084: mafu_Xtra01Nub
+    400086: mafu_Xtra02
+    400088: mafu_Xtra0202
+    400090: mafu_Xtra0203
+    400092: mafu_Xtra02Nub
+    400094: mafu_Xtra03
+    400096: mafu_Xtra0302
+    400098: mafu_Xtra0303
+    400100: mafu_Xtra03Nub
+    400102: mafu_Xtra04
+    400104: mafu_Xtra0402
+    400106: mafu_Xtra0403
+    400108: mafu_Xtra04Nub
+    400110: mafu_Xtra04Opp
+    400112: mafu_Xtra04Opp02
+    400114: mafu_Xtra04Opp03
+    400116: mafu_Xtra04OppNub
+    400118: mafu_Xtra05
+    400120: mafu_Xtra0502
+    400122: mafu_Xtra05Nub
+    400124: mafu_Xtra05Opp
+    400126: mafu_Xtra05Opp02
+    400128: mafu_Xtra05OppNub
+    400130: mafu_Xtra06
+    400132: mafu_Xtra0602
+    400134: mafu_Xtra0603
+    400136: mafu_Xtra0604
+    400138: mafu_Xtra0605
+    400140: mafu_Xtra06Nub
+    400142: mafu_Xtra06Opp
+    400144: mafu_Xtra06Opp02
+    400146: mafu_Xtra06Opp03
+    400148: mafu_Xtra06Opp04
+    400150: mafu_Xtra06Opp05
+    400152: mafu_Xtra06OppNub
+    400154: mafu_Xtra07
+    400156: mafu_Xtra0702
+    400158: mafu_Xtra07Nub
+    400160: mafu_Xtra08
+    400162: mafu_Xtra08Nub
+    400164: mf
+    400166: "\u6444\u50CF\u673A"
+    400168: //RootNode
+    2000000: "\u6444\u50CF\u673A"
+    4300000: mf
+    7400000: "\u5486\u54EE"
+    9500000: //RootNode
+    13700000: mf
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #51'
+    second: {fileID: 2100000, guid: 3cd9c50291244114db2bba672ba36740, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u5486\u54EE"
+      takeName: CINEMA_4D___
+      firstFrame: 0
+      lastFrame: 107
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

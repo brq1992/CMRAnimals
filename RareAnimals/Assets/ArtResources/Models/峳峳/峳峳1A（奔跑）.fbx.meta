@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 4397f564a7efad449a58a539f56abe89
+timeCreated: 1525249265
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "Cinema4D_\u7F16\u8F91\u5668"
+    100002: youyou
+    100004: youyou_2
+    100006: youyou_Footsteps
+    100008: youyou_Head
+    100010: youyou_HeadNub
+    100012: youyou_L_Calf
+    100014: youyou_L_Clavicle
+    100016: youyou_L_Foot
+    100018: youyou_L_Forearm
+    100020: youyou_L_Hand
+    100022: youyou_L_HorseLink
+    100024: youyou_L_Thigh
+    100026: youyou_L_Toe0
+    100028: youyou_L_Toe0Nub
+    100030: youyou_L_UpperArm
+    100032: youyou_Neck
+    100034: youyou_Neck1
+    100036: youyou_Pelvis
+    100038: youyou_R_Calf
+    100040: youyou_R_Clavicle
+    100042: youyou_R_Foot
+    100044: youyou_R_Forearm
+    100046: youyou_R_Hand
+    100048: youyou_R_HorseLink
+    100050: youyou_R_Thigh
+    100052: youyou_R_Toe0
+    100054: youyou_R_Toe0Nub
+    100056: youyou_R_UpperArm
+    100058: youyou_Spine
+    100060: youyou_Spine1
+    100062: youyou_Tail
+    100064: youyou_Tail1
+    100066: youyou_Tail2
+    100068: youyou_Tail3
+    100070: youyou_Tail4
+    100072: youyou_TailNub
+    100074: "youyou_\u9A6C\u5C3E\u8FAB_1"
+    100076: "youyou_\u9A6C\u5C3E\u8FAB_1Nub"
+    100078: "youyou_\u9A6C\u5C3E\u8FAB_2"
+    100080: "youyou_\u9A6C\u5C3E\u8FAB_2Nub"
+    100082: //RootNode
+    400000: "Cinema4D_\u7F16\u8F91\u5668"
+    400002: youyou
+    400004: youyou_2
+    400006: youyou_Footsteps
+    400008: youyou_Head
+    400010: youyou_HeadNub
+    400012: youyou_L_Calf
+    400014: youyou_L_Clavicle
+    400016: youyou_L_Foot
+    400018: youyou_L_Forearm
+    400020: youyou_L_Hand
+    400022: youyou_L_HorseLink
+    400024: youyou_L_Thigh
+    400026: youyou_L_Toe0
+    400028: youyou_L_Toe0Nub
+    400030: youyou_L_UpperArm
+    400032: youyou_Neck
+    400034: youyou_Neck1
+    400036: youyou_Pelvis
+    400038: youyou_R_Calf
+    400040: youyou_R_Clavicle
+    400042: youyou_R_Foot
+    400044: youyou_R_Forearm
+    400046: youyou_R_Hand
+    400048: youyou_R_HorseLink
+    400050: youyou_R_Thigh
+    400052: youyou_R_Toe0
+    400054: youyou_R_Toe0Nub
+    400056: youyou_R_UpperArm
+    400058: youyou_Spine
+    400060: youyou_Spine1
+    400062: youyou_Tail
+    400064: youyou_Tail1
+    400066: youyou_Tail2
+    400068: youyou_Tail3
+    400070: youyou_Tail4
+    400072: youyou_TailNub
+    400074: "youyou_\u9A6C\u5C3E\u8FAB_1"
+    400076: "youyou_\u9A6C\u5C3E\u8FAB_1Nub"
+    400078: "youyou_\u9A6C\u5C3E\u8FAB_2"
+    400080: "youyou_\u9A6C\u5C3E\u8FAB_2Nub"
+    400082: //RootNode
+    2000000: "Cinema4D_\u7F16\u8F91\u5668"
+    4300000: youyou
+    7400000: "\u5954\u8DD1"
+    9500000: //RootNode
+    13700000: youyou
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yy
+    second: {fileID: 2100000, guid: e8abbd5e60fc4ad4b97c65c1b802a156, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: "\u5954\u8DD1"
+      takeName: CINEMA_4D___
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: ARISOrX/////AAAAmUhduvd3XUOHpg+OX9clfA0VkmSQg5Nw04Nc2mt12v0XFELro5nbec4cUrGdZQQViF6lk3YcoIft/kK4pA3ykdnlATewcLd0zGPF8ct/xvZCKeH9+DmwNvrFlHmO/rqJARoNTiXGxjSigY89irOqaKqiIgjzbv91nUxT2AWpTA37ZF7lCR5gXZes4Dm/kTHi7Sw3HM1trRmVDUuNU32st5EQQfb9QXUUVL9WqSez782Sv0TKFyPgekJwArQ1lZ2h3YYsZFmodUpR/N52DWwo4ET7b+DxVcKSRNdDWMnEa3YJxKCBwt6bucjNYRL3C/cjnOqhzHBjKEbHdQ9oh5F+a1G3Cngt/xAOX7ciattcDGo0
     ufoLicenseKey: QWFCNzViVC8vLy8vQUFBQUtIZU5xeWx5dFUrZ20xVU5aeHpqeWcxQkx2QU0rME5sTmxoNjhHNzZpSk9yMHVPZEI1QXFWc2UvSkZnL0YzWTZyemZaYlNhL0Y2WXRrcWs0MHBsQ2xlYUtobmtQNWIzS05ISVg1UGloY3Vsa2pNVzY5K0wzdTBpVDFOTkh0U0NnUTJrUWlkMVpxMHdoZ0psaUZuZTFXVGk0MTRUc2hQdGNuOUNNeHBmWExoZ2ozMzBQVi81YXVaeUF5NlFiZ2tPTEdydWswUVdQdXh2am9rV1NCYllReHloOWJPaGV2ekNUbDdMMGJlbW80Y3VsR3luMjM4UVFnd0FvaTN0bVlycW5IVGRYKzl5TWpWSUpzNEE3QlNsWStXNmRQYnBIbDFDWXF5UmVhT1RSc3RpaHhIYXdGbnRwL0p5d1czRGFYdVRvZEtES2Qxa3hPUFlRUTI1MVVtV014b1lYZDcwVnZ0YzNmRHAxbmxlVmZXM1I=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
@@ -44,13 +44,9 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
-    - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - AnimalScans
     dataSetsToActivate:
-    - VuforiaMars_Images
-    - VuforiaMars_Object_OT
-    - VuforiaMars_VuMark
+    - AnimalScans
   videoBackground:
     clippingMode: 0
     numDivisions: 2
