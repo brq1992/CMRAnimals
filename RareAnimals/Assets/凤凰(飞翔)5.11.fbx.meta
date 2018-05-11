@@ -435,7 +435,7 @@ ModelImporter:
       name: fh
     second: {fileID: 2100000, guid: d378fe9abf518304f98d15c081368b47, type: 2}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 0
