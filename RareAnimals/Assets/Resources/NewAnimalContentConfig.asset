@@ -35,6 +35,13 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u98DE\u7FD4"
     - "\u653B\u51FB"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: b13ad6354d4505941b816d2f1cc6e65f, type: 3}
+    - {fileID: 2800000, guid: 34258b20596e7fb4ab8cb8c9c08b16d3, type: 3}
+    - {fileID: 2800000, guid: 5955e2941500315459f3b0862c300cc8, type: 3}
+    - {fileID: 2800000, guid: 85c5b5d62a830c649a9c36cb42fe0211, type: 3}
+    - {fileID: 2800000, guid: 573edce1ff0c0464e9f7b229b9dd9628, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: e1bb3d76754228a43be2bb644b3412c6, type: 3}
       body: {fileID: 21300000, guid: 815bab18e7985ce4488c189d9f66ab3c, type: 3}
@@ -55,6 +62,12 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u53D1\u6012"
     - "\u8DF3\u8DC3"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: 4f0fa368690f68d4cb39dece9cd35ce4, type: 3}
+    - {fileID: 2800000, guid: d04a5e7e25ce15e4da12ddebda2ac357, type: 3}
+    - {fileID: 2800000, guid: 81927b15fe1cbd646bd295a49e665e7a, type: 3}
+    - {fileID: 2800000, guid: 5e77fa56f17465d48bccc9009f9a8f6d, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: d220e581289aaf4458f36546edc1f4d9, type: 3}
       body: {fileID: 21300000, guid: 2d6b268ea8f1a0d4189bed57514fd366, type: 3}
@@ -75,6 +88,12 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u5954\u8DD1"
     - "\u6253\u6597"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: e2fef64cd823bff4eb08c4c2b1bacb87, type: 3}
+    - {fileID: 2800000, guid: 45dcb2d4d0e3ef346853c1b5b3c7229c, type: 3}
+    - {fileID: 2800000, guid: 0a1edcddc6c619f4a971d760af154847, type: 3}
+    - {fileID: 2800000, guid: 3a576b66719538644a6cd070afd273fe, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: 4e44679ce3bf96045a6a3fae7e4b0db4, type: 3}
       body: {fileID: 21300000, guid: 3c6a5cfb7cd408846805e989dc67affc, type: 3}
@@ -98,6 +117,13 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u89C6\u5BDF"
     - "\u9646\u884C"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: 3a6372d8d33f06d44abd0e6a2b84da4d, type: 3}
+    - {fileID: 2800000, guid: f868cb4d8fa16cf40ae429a39bc5d288, type: 3}
+    - {fileID: 2800000, guid: 6e45572beec741148a6b1f740b8395a5, type: 3}
+    - {fileID: 2800000, guid: ba4509ea40f441c45a40d4ad10cd6271, type: 3}
+    - {fileID: 2800000, guid: ceaea77e20508994f967d373cfea9638, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: cb1c7315d9dc83042ad763112c16f64c, type: 3}
       body: {fileID: 21300000, guid: 97a4eaf713f1f9542911088d7abe2564, type: 3}
@@ -118,6 +144,12 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u5486\u54EE"
     - "\u5954\u8DD1"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: dc24aafe44666984db8d63b471a79f9c, type: 3}
+    - {fileID: 2800000, guid: 4e787b17450c8284fb442a3d3fab3600, type: 3}
+    - {fileID: 2800000, guid: 9c5c702ff6e70e64c87f0d545f454565, type: 3}
+    - {fileID: 2800000, guid: 0ed9bc1ffdf88a74397a9179dc47a020, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: f5b7bbf5df830fc4ba7e199a7b29cb81, type: 3}
       body: {fileID: 21300000, guid: 54436fc4b035c3440acd6c1719de652e, type: 3}
@@ -138,6 +170,12 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u6C14\u6124"
     - "\u9965\u997F"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: 58505acbd4b606e4abce5bc7d8c82bd2, type: 3}
+    - {fileID: 2800000, guid: 3ea2fb6ffecded443aa198aeb90b045f, type: 3}
+    - {fileID: 2800000, guid: b6388d1493ced0840be7c0aebbb76a35, type: 3}
+    - {fileID: 2800000, guid: 84343ab2949b0444d9c6f4edbafd92a7, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: 4ffcdb4e7f01c7240b48535874c61aed, type: 3}
       body: {fileID: 21300000, guid: a598649e5c08f594d85c14d442f26920, type: 3}
@@ -158,6 +196,12 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u653B\u51FB"
     - "\u6012\u543C"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: 99114d92e711d1644851e336ef493d7f, type: 3}
+    - {fileID: 2800000, guid: 5a00693ec92fecf48ab8335fe0a5ec28, type: 3}
+    - {fileID: 2800000, guid: 569e1fe4ddeb2a8448eb2600dd35d951, type: 3}
+    - {fileID: 2800000, guid: 3ed2fab87d664194c8746d5057012ef7, type: 3}
   - list:
     - Bg: {fileID: 21300000, guid: d0077ae65495bbe4bb1b3272d05cb1b1, type: 3}
       body: {fileID: 21300000, guid: 55d952c478823b54c9af36369612fbc1, type: 3}
@@ -178,3 +222,9 @@ MonoBehaviour:
     - "\u539F\u578B"
     - "\u98DE\u7FD4"
     - "\u653B\u51FB"
+    RawImage: {fileID: 0}
+    Texture2Ds:
+    - {fileID: 2800000, guid: 6b7e1ceaf5f8f054581a42d832726410, type: 3}
+    - {fileID: 2800000, guid: 35f68e0efda0e554aa25787a76df8a02, type: 3}
+    - {fileID: 2800000, guid: b7e803aa38d08b2489aa12d47f7ba9f0, type: 3}
+    - {fileID: 2800000, guid: c339b828a208bb1499f317744888f6e6, type: 3}

@@ -282,7 +282,7 @@ public class ARScanManager : BaseManager
             GameObject Cavas = Resources.Load("Prefabs/2DAnimals") as GameObject;
             GameObject cavs = Instantiate(Cavas, transform.parent);
             AnimalViewManager manager = cavs.GetComponent<AnimalViewManager>();
-            manager.Init(contents.list[index - 1]);
+            manager.Init(contents.Texture2Ds[index - 1]);
             animaList.Add(cavs);
         }
     }

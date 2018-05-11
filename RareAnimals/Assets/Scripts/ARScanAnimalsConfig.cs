@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ARScanAnimalsConfig : ScriptableObject
 {
@@ -13,9 +14,9 @@ public class AnimalContents
     public string Key = "";
     public GameObject prefab;
     public Sprite AnimalName;
-    //public string name = "";
     public string[] ANames;
-    //public AnimalCamera[] AnimationTrans;
+    public RawImage RawImage;
+    public List<Texture2D> Texture2Ds = new List<Texture2D>();
 }
 
 [System.Serializable]
@@ -24,12 +25,4 @@ public class AnimalContent
     public Sprite Bg;
     public Sprite body;
     public Sprite font;
-}
-
-[System.Serializable]
-public class AnimalCamera
-{
-    public string AName;
-    public Vector3 LocalPos;
-    public Vector3 LocalRot;
 }

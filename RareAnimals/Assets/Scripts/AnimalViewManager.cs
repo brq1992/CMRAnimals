@@ -4,13 +4,11 @@ using UnityEngine.UI;
 
 public class AnimalViewManager : MonoBehaviour
 {
-    public Image bg;
-    public Image font;
-    public Image animal;
-    public void Init(AnimalContent result)
+    public RawImage RawImage;
+
+    public void Init(Texture2D image)
     {
-        bg.sprite = result.Bg;
-        font.sprite = result.font;
-        animal.sprite = result.body;
+        RawImage.texture = image;
     }
+
 }
