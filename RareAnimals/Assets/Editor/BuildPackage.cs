@@ -70,6 +70,8 @@ public class BuildWindow : EditorWindow
             GUILayout.Label("打包存放目录:");
             GUI.skin.label.fontSize = 14;
             GUILayout.Label(buildPath);
+            GUI.skin.button.fontSize = 16;
+            this.appName = GUILayout.TextField(this.appName,new GUILayoutOption[]{GUILayout.MaxWidth(200)});
             GUI.skin.button.fontSize = 14;
             if (GUILayout.Button("重新选择目录"))
             {
@@ -82,19 +84,20 @@ public class BuildWindow : EditorWindow
             if (GUILayout.Button("Build"))
             {
                 isBuildSuccess = false;
-                string appName = "istage";
                 string folderName = appName + "_" + DateTime.Now.ToString("yyyy.MM.dd_HH.mm.ss");
                 string targetDir = buildPath + "/" + folderName;
 #if UNITY_ANDROID 
                 BuildTarget buildTarget = BuildTarget.Android;
+                appFullName = string.Format("{0}/{1}.apk", targetDir, appName);
 #endif
 #if UNITY_IOS 
                 BuildTarget buildTarget = BuildTarget.iOS;
+                appFullName = string.Format("{0}/{1}", targetDir, appName);
 #endif 
 #if UNITY_EDITOR_WIN&&! UNITY_ANDROID&&!UNITY_IOS
                 BuildTarget buildTarget = BuildTarget.StandaloneWindows64;
-#endif
                 appFullName = string.Format("{0}/{1}.exe", targetDir, appName);
+#endif
                 if (!Directory.Exists(targetDir))
                     Directory.CreateDirectory(targetDir);
                 //AddScenes(s_scenes);
@@ -115,7 +118,7 @@ public class BuildWindow : EditorWindow
                     //    File.Copy(bassDll, targetDir + "/" + bassDll);
                     //}
                 }
-                CopyDependencies(targetDir);
+                //CopyDependencies(targetDir);
                 //Encrypt(appName, targetDir, folderName);
             }
             if (GUILayout.Button("打开目录"))
