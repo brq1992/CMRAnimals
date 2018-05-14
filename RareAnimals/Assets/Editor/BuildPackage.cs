@@ -8,7 +8,7 @@ public class BuildWindow : EditorWindow
     static float windowWidth = 800;
     static float windowHeight = 600;
     static BuildWindow s_instance;
-    string appName = "istage";
+    string appName = "";
     string newPath = "";
     static string PATH_KEY = "BUILD_PATH_KEY";
     string buildRes = "";
@@ -46,6 +46,7 @@ public class BuildWindow : EditorWindow
         newPath = "";
         buildRes = "";
         isBuildSuccess = false;
+        appName = Application.productName;
     }
 
     [UnityEditor.MenuItem("Tools/Build", false, 0)]
