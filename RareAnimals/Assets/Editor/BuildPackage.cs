@@ -66,6 +66,8 @@ public class BuildWindow : EditorWindow
     {
         //if (s_instance != null)
         {
+            GUILayout.BeginVertical();
+
             GUI.skin.label.fontSize = 16;
             GUILayout.Label(Application.productName);
             GUILayout.Label("打包存放目录:");
@@ -82,6 +84,8 @@ public class BuildWindow : EditorWindow
                     PlayerPrefs.SetString(PATH_KEY, newPath);
                 }
             }
+
+            GUILayout.BeginHorizontal();
             if (GUILayout.Button("Build"))
             {
                 isBuildSuccess = false;
@@ -122,6 +126,36 @@ public class BuildWindow : EditorWindow
                 //CopyDependencies(targetDir);
                 //Encrypt(appName, targetDir, folderName);
             }
+
+            if (GUILayout.Button("Build&Run"))
+            {
+                isBuildSuccess = false;
+                string folderName = appName + "_" + DateTime.Now.ToString("yyyy.MM.dd_HH.mm.ss");
+                string targetDir = buildPath + "/" + folderName;
+#if UNITY_ANDROID
+                BuildTarget buildTarget = BuildTarget.Android;
+                appFullName = string.Format("{0}/{1}.apk", targetDir, appName);
+#endif
+#if UNITY_IOS 
+                BuildTarget buildTarget = BuildTarget.iOS;
+                appFullName = string.Format("{0}/{1}", targetDir, appName);
+#endif
+#if UNITY_EDITOR_WIN&&! UNITY_ANDROID&&!UNITY_IOS
+                BuildTarget buildTarget = BuildTarget.StandaloneWindows64;
+                appFullName = string.Format("{0}/{1}.exe", targetDir, appName);
+#endif
+                if (!Directory.Exists(targetDir))
+                    Directory.CreateDirectory(targetDir);
+                PlayerSettings.usePlayerLog = true;
+                buildRes = BuildPipeline.BuildPlayer(EditorBuildSettings.scenes, appFullName, buildTarget, BuildOptions.AutoRunPlayer);
+                if (string.IsNullOrEmpty(buildRes))
+                {
+                    isBuildSuccess = true;
+                    Debug.LogFormat("文件输出目录:{0}", appFullName);
+                }
+            }
+
+            GUILayout.EndHorizontal();
             if (GUILayout.Button("打开目录"))
             {
                 if (Directory.Exists(buildPath))
@@ -143,6 +177,8 @@ public class BuildWindow : EditorWindow
             }
             GUI.skin.label.fontSize = 0;
             GUI.skin.button.fontSize = 0;
+
+            GUILayout.EndVertical();
         }
     }
 
