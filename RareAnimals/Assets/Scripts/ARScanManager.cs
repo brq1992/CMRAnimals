@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Vuforia;
 using Image = UnityEngine.UI.Image;
@@ -58,76 +59,9 @@ public class ARScanManager : BaseManager
 
 
         idle = transform.Find("Idle");
-        Button idleBtn = idle.GetComponent<Button>();
-        idleBtn.onClick.AddListener(() =>
-        {
-            //点击Idle
-            //Debug.Log("you click Idle!");
-            if (activeAnimal)
-            {
-                Animator animator = activeAnimal.GetComponent<Animator>();
-                if (animator)
-                {
-                    StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
-                    List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
-                    AnimationClip clip = ans.Find(x => x.name.Equals(idle.name));
-                    ExcuteCamera(0, clip.length);
-                    animator.Play(idle.name);
-                    idle.transform.Find("Image").gameObject.SetActive(true);
-                    roar.transform.Find("Image").gameObject.SetActive(false);
-                    detect.transform.Find("Image").gameObject.SetActive(false);
-                }
-            }
-        });
-
         roar = transform.Find("Roar");
-        Button roarBtn = roar.GetComponent<Button>();
-        roarBtn.onClick.AddListener(() =>
-        {
-            //点击Idle
-            //Debug.Log("you click roar!");
-            if (activeAnimal)
-            {
-                Animator animator = activeAnimal.GetComponent<Animator>();
-                if (animator)
-                {
-                    StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
-                    List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
-                    AnimationClip clip = ans.Find(x => x.name.Equals(roar.name));
-                    ExcuteCamera(1, clip.length);
-                    animator.Play(roar.name);
-                    idle.transform.Find("Image").gameObject.SetActive(false);
-                    roar.transform.Find("Image").gameObject.SetActive(true);
-                    detect.transform.Find("Image").gameObject.SetActive(false);
-                }
-            }
-        });
-
         detect = transform.Find("Detect");
-        Button detectBtn = detect.GetComponent<Button>();
-        detectBtn.onClick.AddListener(() =>
-        {
-            //点击Idle
-            //Debug.Log("you click detect!");
-            if (activeAnimal)
-            {
-                Animator animator = activeAnimal.GetComponent<Animator>();
-                if (animator)
-                {
-                    StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
-                    List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
-                    AnimationClip clip = ans.Find(x => x.name.Equals(detect.name));
-                    ExcuteCamera(2, clip.length);
-                    animator.Play(detect.name);
-                    idle.transform.Find("Image").gameObject.SetActive(false);
-                    roar.transform.Find("Image").gameObject.SetActive(false);
-                    detect.transform.Find("Image").gameObject.SetActive(true);
-                }
-            }
-        });
+        
 
         activeAnimalName = transform.Find("Name");
         activeAnimalName.gameObject.SetActive(false);
@@ -142,6 +76,134 @@ public class ARScanManager : BaseManager
         VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
         config = Resources.Load("NewAnimalContentConfig") as ARScanAnimalsConfig;
     }
+
+
+    private void Add3DClick()
+    {
+        Button idleBtn = idle.GetComponent<Button>();
+        idleBtn.onClick.RemoveAllListeners();
+        idleBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    animator.Play(idle.name);
+                    idle.transform.Find("Image").gameObject.SetActive(true);
+                    roar.transform.Find("Image").gameObject.SetActive(false);
+                    detect.transform.Find("Image").gameObject.SetActive(false);
+                }
+            }
+        });
+
+        Button roarBtn = roar.GetComponent<Button>();
+        roarBtn.onClick.RemoveAllListeners();
+        roarBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    animator.Play(roar.name);
+                    idle.transform.Find("Image").gameObject.SetActive(false);
+                    roar.transform.Find("Image").gameObject.SetActive(true);
+                    detect.transform.Find("Image").gameObject.SetActive(false);
+                }
+            }
+        });
+
+        Button detectBtn = detect.GetComponent<Button>();
+        detectBtn.onClick.RemoveAllListeners();
+        detectBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    animator.Play(detect.name);
+                    idle.transform.Find("Image").gameObject.SetActive(false);
+                    roar.transform.Find("Image").gameObject.SetActive(false);
+                    detect.transform.Find("Image").gameObject.SetActive(true);
+                }
+            }
+        });
+    }
+
+    private void Add2DClick()
+    {
+        Button idleBtn = idle.GetComponent<Button>();
+        idleBtn.onClick.RemoveAllListeners();
+        idleBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    //StopCoroutine("ActiveGameObject");
+                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
+                    //AnimationClip clip = ans.Find(x => x.name.Equals(idle.name));
+                    //ExcuteCamera(0, clip.length);
+                    animator.Play(idle.name);
+                    idle.transform.Find("Image").gameObject.SetActive(true);
+                    roar.transform.Find("Image").gameObject.SetActive(false);
+                    detect.transform.Find("Image").gameObject.SetActive(false);
+                    SwitchCam(0);
+                }
+            }
+        });
+
+        Button roarBtn = roar.GetComponent<Button>();
+        roarBtn.onClick.RemoveAllListeners();
+        roarBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    //StopCoroutine("ActiveGameObject");
+                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
+                    //AnimationClip clip = ans.Find(x => x.name.Equals(roar.name));
+                    //ExcuteCamera(1, clip.length);
+                    animator.Play(roar.name);
+                    idle.transform.Find("Image").gameObject.SetActive(false);
+                    roar.transform.Find("Image").gameObject.SetActive(true);
+                    detect.transform.Find("Image").gameObject.SetActive(false);
+                    SwitchCam(1);
+                }
+            }
+        });
+
+        Button detectBtn = detect.GetComponent<Button>();
+        detectBtn.onClick.RemoveAllListeners();
+        detectBtn.onClick.AddListener(() =>
+        {
+            if (activeAnimal)
+            {
+                Animator animator = activeAnimal.GetComponent<Animator>();
+                if (animator)
+                {
+                    //StopCoroutine("ActiveGameObject");
+                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
+                    //AnimationClip clip = ans.Find(x => x.name.Equals(detect.name));
+                    //ExcuteCamera(2, clip.length);
+                    animator.Play(detect.name);
+                    idle.transform.Find("Image").gameObject.SetActive(false);
+                    roar.transform.Find("Image").gameObject.SetActive(false);
+                    detect.transform.Find("Image").gameObject.SetActive(true);
+                    SwitchCam(2);
+                }
+            }
+        });
+    }
+
 
     private void ExcuteCamera(int i, float f)
     {
@@ -217,12 +279,16 @@ public class ARScanManager : BaseManager
             activeAnimal = live;
             if (str[3].Equals("0"))
             {
+                Add2DClick();
                 live.transform.localPosition = new Vector3(0, 0.6f, -0.3f);
                 live.transform.localEulerAngles = new Vector3(0, -90f, -90f);
             }
+            else
+            {
+                Add3DClick();
+            }
             if (activeAnimal != null)
             {
-                //ActiveAnimationBtn(true, contents);
                 idle.name = contents.ANames[0];
                 idle.transform.Find("Text").GetComponent<Text>().text = contents.ANames[0];
                 roar.name = contents.ANames[1];
@@ -244,30 +310,30 @@ public class ARScanManager : BaseManager
                     return;
                 }
                 camereTrans.gameObject.SetActive(false);
-                OnClickAnimation = delegate(int i, float f)
-                {
-                    if (!camereTrans.gameObject.activeSelf)
-                    {
-                        camereTrans.gameObject.SetActive(true);
-                    }
-                    if (camereTrans)
-                    {
-                        //camereTrans.localPosition = contents.AnimationTrans[i].LocalPos;
-                        //camereTrans.rotation = Quaternion.Euler(contents.AnimationTrans[i].LocalRot);
-                        for (int j = 0; j < camereTrans.childCount; j++)
-                        {
-                            if (j == i)
-                            {
-                                camereTrans.GetChild(i).gameObject.SetActive(true);
-                            }
-                            else
-                            {
-                                camereTrans.GetChild(j).gameObject.SetActive(false);
-                            }
-                        }
-                    }
-                    StartCoroutine(ActiveGameObject(camereTrans.gameObject, f));
-                };
+                //OnClickAnimation = delegate(int i, float f)
+                //{
+                //    if (!camereTrans.gameObject.activeSelf)
+                //    {
+                //        camereTrans.gameObject.SetActive(true);
+                //    }
+                //    if (camereTrans)
+                //    {
+                //        //camereTrans.localPosition = contents.AnimationTrans[i].LocalPos;
+                //        //camereTrans.rotation = Quaternion.Euler(contents.AnimationTrans[i].LocalRot);
+                //        for (int j = 0; j < camereTrans.childCount; j++)
+                //        {
+                //            if (j == i)
+                //            {
+                //                camereTrans.GetChild(i).gameObject.SetActive(true);
+                //            }
+                //            else
+                //            {
+                //                camereTrans.GetChild(j).gameObject.SetActive(false);
+                //            }
+                //        }
+                //    }
+                //    StartCoroutine(ActiveGameObject(camereTrans.gameObject, f));
+                //};
             }
         }
         else
@@ -284,6 +350,39 @@ public class ARScanManager : BaseManager
             AnimalViewManager manager = cavs.GetComponent<AnimalViewManager>();
             manager.Init(contents.Texture2Ds[index - 1]);
             animaList.Add(cavs);
+        }
+        Button idleBtn = idle.GetComponent<Button>();
+        idleBtn.onClick.Invoke();
+    }
+
+
+    private void SwitchCam(int i)
+    {
+        Transform camereTrans = activeAnimal.transform.Find("Camera");
+        if (!camereTrans)
+        {
+            Debug.LogError("cant find camera!");
+            return;
+        }
+        if (!camereTrans.gameObject.activeSelf)
+        {
+            camereTrans.gameObject.SetActive(true);
+        }
+        if (camereTrans)
+        {
+            //camereTrans.localPosition = contents.AnimationTrans[i].LocalPos;
+            //camereTrans.rotation = Quaternion.Euler(contents.AnimationTrans[i].LocalRot);
+            for (int j = 0; j < camereTrans.childCount; j++)
+            {
+                if (j == i)
+                {
+                    camereTrans.GetChild(i).gameObject.SetActive(true);
+                }
+                else
+                {
+                    camereTrans.GetChild(j).gameObject.SetActive(false);
+                }
+            }
         }
     }
 
@@ -326,6 +425,7 @@ public class ARScanManager : BaseManager
         else
         {
             TrackingNotFound(result.root);
+            ActiveGameObject();
         }
     }
 
@@ -335,6 +435,21 @@ public class ARScanManager : BaseManager
         VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
         if(obj)
             obj.SetActive(false);
+    }
+
+
+    private void ActiveGameObject()
+    {
+        VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
+        if(!activeAnimal)
+        { return;}
+        Transform camereTrans = activeAnimal.transform.Find("Camera");
+        if (!camereTrans)
+        {
+            Debug.LogError("cant find camera!");
+            return;
+        }
+        camereTrans.gameObject.SetActive(false);
     }
 
     private void OnClickWarning()
