@@ -275,7 +275,7 @@ public class ARScanManager : BaseManager
             GameObject prefab = contents.prefab;
             GameObject live = Instantiate(prefab);
             live.transform.SetParent(result.root.transform);
-            live.transform.localScale = Vector3.one;
+            //live.transform.localScale = Vector3.one;
             activeAnimal = live;
             if (str[3].Equals("0"))
             {
@@ -285,6 +285,8 @@ public class ARScanManager : BaseManager
             }
             else
             {
+                live.transform.localScale = contents.AnimalScale;
+                live.transform.localPosition = contents.AnimalPos;
                 Add3DClick();
             }
             if (activeAnimal != null)
@@ -310,30 +312,6 @@ public class ARScanManager : BaseManager
                     return;
                 }
                 camereTrans.gameObject.SetActive(false);
-                //OnClickAnimation = delegate(int i, float f)
-                //{
-                //    if (!camereTrans.gameObject.activeSelf)
-                //    {
-                //        camereTrans.gameObject.SetActive(true);
-                //    }
-                //    if (camereTrans)
-                //    {
-                //        //camereTrans.localPosition = contents.AnimationTrans[i].LocalPos;
-                //        //camereTrans.rotation = Quaternion.Euler(contents.AnimationTrans[i].LocalRot);
-                //        for (int j = 0; j < camereTrans.childCount; j++)
-                //        {
-                //            if (j == i)
-                //            {
-                //                camereTrans.GetChild(i).gameObject.SetActive(true);
-                //            }
-                //            else
-                //            {
-                //                camereTrans.GetChild(j).gameObject.SetActive(false);
-                //            }
-                //        }
-                //    }
-                //    StartCoroutine(ActiveGameObject(camereTrans.gameObject, f));
-                //};
             }
         }
         else

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -84,7 +85,7 @@ public class UIManager : MonoBehaviour
 
     private IEnumerator GetImage(string path)
     {
-        path = @"F:\AnimalScans\" + path;
+        path = @"e:\AnimalScans\" + path;
         WWW www = new WWW(path);
         yield return www;
         while (!www.isDone)
@@ -103,10 +104,10 @@ public class UIManager : MonoBehaviour
 #endif
     private void Awake()
     {
-            //GameObject debug = new GameObject("Debug");
-            //debug.AddComponent<DebugOutside>();
+        //GameObject debug = new GameObject("Debug");
+        //debug.AddComponent<DebugOutside>();
 
-#if UNITY_EDITORUNITY_EDITOR && !UNITY_ANDROID && !UNITY_IOS
+#if UNITY_EDITOR && !UNITY_ANDROID && !UNITY_IOS
         if (Application.platform == RuntimePlatform.WindowsEditor)
         {
             Camera camera = new GameObject("TestCamera").AddComponent<Camera>();
@@ -119,7 +120,7 @@ public class UIManager : MonoBehaviour
                 cn.worldCamera = camera;
                 rawImage = cn.transform.Find("RawImage").GetComponent<RawImage>();
             }
-            string path = @"F:\My Project\CMRAnimals\RareAnimals\Assets\Editor\Vuforia\ImageTargetTextures\AnimalScans";
+            string path = @"C:\Users\Public\Project\New folder\CMRAnimals\RareAnimals\Assets\Editor\Vuforia\ImageTargetTextures\AnimalScans";
             if (Directory.Exists(path))
             {
                 fileNameList = Directory.GetFiles(path).ToList();

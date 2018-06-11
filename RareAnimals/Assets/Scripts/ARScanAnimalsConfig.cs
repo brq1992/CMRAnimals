@@ -13,6 +13,9 @@ public class AnimalContents
     public string Key = "";
     public GameObject prefab;
     public Sprite AnimalName;
+    public Vector3 AnimalScale;
+    public Vector3 AnimalPos;
+    public Quaternion AnimalRot;
     public string[] ANames;
     public List<Texture2D> Texture2Ds = new List<Texture2D>();
 }
