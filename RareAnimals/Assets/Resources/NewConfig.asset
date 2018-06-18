@@ -25,7 +25,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 107ac75af56d9bb4d80896f03320f088, type: 3}
     - Sprite: {fileID: 21300000, guid: 7e1767ae14208d14b939418ab7ad78ed, type: 3}
       Asset: {fileID: 4900000, guid: d5a3ea981a9219b4389f615637195299, type: 3}
-    Title: {fileID: 21300000, guid: bae30e515fd5aa444a79ffde48ba9f97, type: 3}
+    Title: {fileID: 21300000, guid: faf0c9e363a7c014d97c94d1edd7451d, type: 3}
     Key: SouthBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: e6bbb745b2dc19640b0bd9c2b8a2d823, type: 3}
@@ -38,7 +38,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 25ee7930c5ec3864f9fb57f86d09baeb, type: 3}
     - Sprite: {fileID: 21300000, guid: a932fa0f9496a85428b2c04ce7587e79, type: 3}
       Asset: {fileID: 4900000, guid: 5bf1b12fdf8e5394abd677c61f77baa2, type: 3}
-    Title: {fileID: 21300000, guid: 04436fedbf43d9f42a418afb9b92722e, type: 3}
+    Title: {fileID: 21300000, guid: 85e2c877af8417342abf6f5baf68f867, type: 3}
     Key: WestBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: cdc2904531e86314dbc3857f3be4c968, type: 3}
@@ -51,7 +51,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: d600394519d07e44d821529bd133c105, type: 3}
     - Sprite: {fileID: 21300000, guid: 4d32fa0a7f1084a45918b47ed570a1e3, type: 3}
       Asset: {fileID: 4900000, guid: ce74ea26d4f191846bbd36f191d4702e, type: 3}
-    Title: {fileID: 21300000, guid: ec20e21d846e7f646995adca3ccb5e38, type: 3}
+    Title: {fileID: 21300000, guid: ad772f4e36a565642b198f2e37f3ca4e, type: 3}
     Key: EastBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: e443361bc32bda540ba52ff1178fa1da, type: 3}
@@ -66,7 +66,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 4703033b709898949b201a0ed4c2161e, type: 3}
     - Sprite: {fileID: 21300000, guid: 9779f4f11352a674ebbcf5c01c8b8e29, type: 3}
       Asset: {fileID: 4900000, guid: 5540d247dfb587d40b1b14339900a62b, type: 3}
-    Title: {fileID: 21300000, guid: 074bc84d83bf42c4882d4df4dbc1aeb0, type: 3}
+    Title: {fileID: 21300000, guid: a84d2c5a4a696ce418d540fe86119d16, type: 3}
     Key: NorthBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 99ab446c473714c49abacf374fe8b538, type: 3}
@@ -79,7 +79,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 09488826c89c7494385fb1f08e853c28, type: 3}
     - Sprite: {fileID: 21300000, guid: b0aa071c256ffec41aaa37cbf96749b2, type: 3}
       Asset: {fileID: 4900000, guid: f185754e86b83824f9ae52e90c6cfeaf, type: 3}
-    Title: {fileID: 21300000, guid: 08c77433fad85f34db3bfb9b5ef240f8, type: 3}
+    Title: {fileID: 21300000, guid: ccf550ea82cc9444b9637627fb6d6f49, type: 3}
     Key: MiddleBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 06ce08575b5efd14e8893e09046be2a6, type: 3}
@@ -92,7 +92,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 85ea6403e690b0041837aa7c1c5a1e7a, type: 3}
     - Sprite: {fileID: 21300000, guid: 1bf26b3e9c80342408f2772cbf4e29a4, type: 3}
       Asset: {fileID: 4900000, guid: b0c558654376ae247b12f82e7fbeff5b, type: 3}
-    Title: {fileID: 21300000, guid: 1e0fce7b431eeb44ca3c1ab1ca4b0833, type: 3}
+    Title: {fileID: 21300000, guid: aac263e7d097baa4193e4218d012c5cc, type: 3}
     Key: InsideBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 563de19a57baaa741a8be54d7ae0e6cb, type: 3}
@@ -105,7 +105,7 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: 4ac5bd69979090645a3ce132dbe164fc, type: 3}
     - Sprite: {fileID: 21300000, guid: e0b24e01291fb3442976c9dcbfe1a2a1, type: 3}
       Asset: {fileID: 4900000, guid: 92c05bfcf3e206643b620da07f843d5a, type: 3}
-    Title: {fileID: 21300000, guid: 42942c24d875bdb40960f8d14d827109, type: 3}
+    Title: {fileID: 21300000, guid: b28bfdc4499918c418b35c6302c7792f, type: 3}
     Key: OutsideBook
   - Middle:
     - Sprite: {fileID: 21300000, guid: 003b7287b9abb8045833d126f85c7aa9, type: 3}
@@ -118,5 +118,5 @@ MonoBehaviour:
       Asset: {fileID: 4900000, guid: b5235f4904c9035479786fc3b55a142d, type: 3}
     - Sprite: {fileID: 21300000, guid: c5aaed5d46d7105438536487015276ba, type: 3}
       Asset: {fileID: 4900000, guid: 2b888c8d93faf274490981fe421aaf3c, type: 3}
-    Title: {fileID: 21300000, guid: 737c260b97a14554dbfc4105c76631ae, type: 3}
+    Title: {fileID: 21300000, guid: 7dddb0009f43f394b88f333ffa10f28a, type: 3}
     Key: BigBook

@@ -1,4 +1,5 @@
 ﻿
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -34,9 +35,23 @@ public class BookContentManager : MonoBehaviour
             obj.transform.SetParent(Root);
             obj.GetComponent<RectTransform>().anchoredPosition = new Vector2(vector3.x, vector3.y);
             obj.GetComponent<RectTransform>().localScale = Vector3.one;
+            
             AnimalBookItemSetting bookItem = obj.GetComponent<AnimalBookItemSetting>();
             bookItem.Init(content.Middle[i].Asset.text, content.Middle[i].Sprite);
         }
+        for (int i = 0; i < Root.childCount; i++)
+        {
+            LayoutElement layoutElement = Root.GetChild(i).GetComponent<LayoutElement>();
+            if (Convert.ToBoolean(i % 2))
+            {
+                layoutElement.preferredHeight = 480;
+            }
+            else
+            {
+                layoutElement.preferredHeight = 620;
+            }
+        }
+
     }
 }
 
