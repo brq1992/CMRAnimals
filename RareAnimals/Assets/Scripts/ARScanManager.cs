@@ -29,6 +29,7 @@ public class ARScanManager : BaseManager
     private Transform activeAnimalName;
     private Action<int, float> OnClickAnimation;
     private bool isAnimationPlaying;
+   
     public override void InitView()
     {
         base.InitView();

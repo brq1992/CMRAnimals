@@ -12,7 +12,7 @@ public class MainMenuManager : MonoBehaviour {
     public event OnClickButton OnClickAudioEvent;
     public event OnClickButton OnClickBookEvent;
 
-
+    public Image LoginImage;
     public void Init()
     {
         Transform arTs = transform.Find("AR");
@@ -44,6 +44,7 @@ public class MainMenuManager : MonoBehaviour {
                     ar.enabled = true;
                     audi.enabled = false;
                     book.enabled = false;
+                    LoginImage.enabled = false;
                     break;
                 }
             case MenuItem.AudioNav:
@@ -51,6 +52,7 @@ public class MainMenuManager : MonoBehaviour {
                     ar.enabled = false;
                     audi.enabled = true;
                     book.enabled = false;
+                    LoginImage.enabled = true;
                     break;
                 }
             case MenuItem.AnimalsBook:
@@ -58,6 +60,7 @@ public class MainMenuManager : MonoBehaviour {
                     ar.enabled = false;
                     audi.enabled = false;
                     book.enabled = true;
+                    LoginImage.enabled = true;
                     break;
                 }
             default:

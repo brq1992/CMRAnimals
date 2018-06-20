@@ -131,7 +131,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 765cb005b3e74571aed80ac527bac494, type: 3}
+        m_Texture: {fileID: 2800000, guid: 69172a4c15764a4aabe3edcf8f7c144b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -7461,6 +7461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb58a4a0dd1d26459d398ed14e1114a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LoginImage: {fileID: 834032585}
 --- !u!1 &1992056184
 GameObject:
   m_ObjectHideFlags: 0
