@@ -74,7 +74,7 @@ public class ARScanManager : BaseManager
         roar.gameObject.SetActive(false);
         detect.gameObject.SetActive(false);
 
-        VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
+        //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
         config = Resources.Load("NewAnimalContentConfig") as ARScanAnimalsConfig;
     }
 
@@ -145,7 +145,7 @@ public class ARScanManager : BaseManager
                 if (animator)
                 {
                     //StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
                     //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
                     //AnimationClip clip = ans.Find(x => x.name.Equals(idle.name));
                     //ExcuteCamera(0, clip.length);
@@ -168,7 +168,7 @@ public class ARScanManager : BaseManager
                 if (animator)
                 {
                     //StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
                     //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
                     //AnimationClip clip = ans.Find(x => x.name.Equals(roar.name));
                     //ExcuteCamera(1, clip.length);
@@ -191,7 +191,7 @@ public class ARScanManager : BaseManager
                 if (animator)
                 {
                     //StopCoroutine("ActiveGameObject");
-                    VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
+                    //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = ~(1 << 8);
                     //List<AnimationClip> ans = animator.runtimeAnimatorController.animationClips.ToList();
                     //AnimationClip clip = ans.Find(x => x.name.Equals(detect.name));
                     //ExcuteCamera(2, clip.length);
@@ -343,6 +343,8 @@ public class ARScanManager : BaseManager
             Debug.LogError("cant find camera!");
             return;
         }
+        camereTrans.gameObject.SetActive(false);
+        return;
         if (!camereTrans.gameObject.activeSelf)
         {
             camereTrans.gameObject.SetActive(true);
@@ -411,7 +413,7 @@ public class ARScanManager : BaseManager
     private IEnumerator ActiveGameObject(GameObject obj, float time)
     {
         yield return new WaitForSeconds(time);
-        VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
+        //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
         if(obj)
             obj.SetActive(false);
     }
@@ -419,7 +421,7 @@ public class ARScanManager : BaseManager
 
     private void ActiveGameObject()
     {
-        VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
+        //VuforiaBehaviour.Instance.transform.GetComponent<Camera>().cullingMask = -1;
         if(!activeAnimal)
         { return;}
         Transform camereTrans = activeAnimal.transform.Find("Camera");
